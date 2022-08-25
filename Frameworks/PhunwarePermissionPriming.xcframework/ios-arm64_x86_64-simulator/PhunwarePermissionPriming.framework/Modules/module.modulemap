@@ -1,0 +1,11 @@
+framework module PhunwarePermissionPriming {
+  umbrella header "PhunwarePermissionPriming.h"
+
+  export *
+  module * { export * }
+}
+
+module PhunwarePermissionPriming.Swift {
+    header "PhunwarePermissionPriming-Swift.h"
+    requires objc
+}
