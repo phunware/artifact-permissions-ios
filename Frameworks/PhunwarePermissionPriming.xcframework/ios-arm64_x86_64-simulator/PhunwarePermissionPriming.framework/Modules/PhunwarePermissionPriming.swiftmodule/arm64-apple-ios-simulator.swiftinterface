@@ -1,0 +1,180 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name PhunwarePermissionPriming
+import Combine
+import CoreLocation
+import Foundation
+import PhunwareFoundation
+@_exported import PhunwarePermissionPriming
+import PhunwareTheming
+import Swift
+import UIKit.UIApplication
+import UIKit
+import UIKit.UIView
+import UIKit.UIViewController
+import _Concurrency
+public struct ImageInfo {
+  public let image: UIImage
+  public let colors: ColorInfo?
+  public init(image: UIImage, colors: ColorInfo?)
+}
+public enum LocationPermission {
+  public enum Accuracy {
+    case precise
+    @available(iOS 14, *)
+    case approximate
+    public static func == (a: PhunwarePermissionPriming.LocationPermission.Accuracy, b: PhunwarePermissionPriming.LocationPermission.Accuracy) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  case always(accuracy: Accuracy)
+  case whenInUse(accuracy: Accuracy)
+  case oneTime(purposeKey: String)
+}
+public struct ColorInfo {
+  public let foreground: UIColor?
+  public let background: UIColor?
+  public let tint: UIColor?
+  public init(foreground: UIColor?, background: UIColor?, tint: UIColor?)
+}
+public enum DisplayTemplate {
+  case fullScreen(configuration: FullScreenConfiguration)
+  case bottomSheet(configuration: BottomSheetConfiguration)
+}
+public struct BottomSheetConfiguration {
+  public let colorInfo: ColorInfo?
+  public let imageInfo: ImageInfo?
+  public let title: Copy?
+  public let description: Copy?
+  public let okButton: Copy?
+  public let cancelButton: Copy?
+  public init(colorInfo: ColorInfo?, imageInfo: ImageInfo?, title: Copy?, description: Copy?, okButton: Copy?, cancelButton: Copy?)
+  public init(colorPalette: ColorPalette, textStyles: TextStyles, image: UIImage? = nil, title: String? = nil, description: String? = nil, okButtonTitle: String? = nil, cancelButtonTitle: String? = nil)
+}
+public func == <T>(lhs: OrderedSet<T>, rhs: OrderedSet<T>) -> Bool where T : Swift.Hashable
+public struct OrderedSet<E> : Equatable, Collection where E : Swift.Hashable {
+  public typealias Element = E
+  public typealias Index = Int
+  public typealias Indices = Range<Int>
+  public init()
+  public init(_ array: [Element])
+  public var count: Int {
+    get
+  }
+  public var isEmpty: Bool {
+    get
+  }
+  public var contents: [Element] {
+    get
+  }
+  public func contains(_ member: Element) -> Bool
+  @discardableResult
+  public mutating func append(_ newElement: Element) -> Bool
+  public mutating func removeFirst() -> Element?
+  public mutating func removeLast() -> Element?
+  public mutating func removeAll(keepingCapacity keepCapacity: Bool)
+  @discardableResult
+  public mutating func remove(_ element: Element) -> Element?
+  public typealias Iterator = Swift.IndexingIterator<PhunwarePermissionPriming.OrderedSet<E>>
+  public typealias SubSequence = Swift.Slice<PhunwarePermissionPriming.OrderedSet<E>>
+}
+extension OrderedSet : ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Element...)
+  public typealias ArrayLiteralElement = PhunwarePermissionPriming.OrderedSet<E>.Element
+}
+extension OrderedSet : RandomAccessCollection {
+  public var startIndex: Int {
+    get
+  }
+  public var endIndex: Int {
+    get
+  }
+  public subscript(index: Int) -> Element {
+    get
+  }
+}
+extension OrderedSet : Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public protocol Option : Swift.CaseIterable, Swift.Hashable, Swift.RawRepresentable {
+}
+public enum Copy {
+  case plain(text: String, fontInfo: FontInfo?, colorInfo: ColorInfo?)
+  case attributed(text: NSAttributedString)
+}
+public enum Permission {
+  case location(LocationPermission)
+}
+extension Permission : RawRepresentable {
+  public typealias RawValue = String
+  public var rawValue: String {
+    get
+  }
+  public init?(rawValue: String)
+}
+extension Permission : Hashable {
+}
+public struct FullScreenConfiguration {
+  public enum Features {
+    case bulletedList(introduction: Copy, names: [String], namesFontInfo: FontInfo?, namesColorInfo: ColorInfo?)
+  }
+  public let colorInfo: ColorInfo?
+  public let imageInfo: ImageInfo?
+  public let title: Copy?
+  public let features: Features?
+  public let nextStep: Copy?
+  public let additionalInfo: Copy?
+  public let okButton: Copy?
+  public let cancelButton: Copy?
+  public init(colorInfo: ColorInfo?, imageInfo: ImageInfo?, title: Copy?, features: Features?, nextStep: Copy?, additionalInfo: Copy?, okButton: Copy?, cancelButton: Copy?)
+  public init(colorPalette: ColorPalette, textStyles: TextStyles, image: UIImage? = nil, title: String? = nil, features: (introduction: String, names: [String])? = nil, nextStep: String? = nil, additionalInfo: String? = nil, okButtonTitle: String? = nil, cancelButtonTitle: String? = nil)
+}
+public protocol PermissionPrimingCoordinatorDelegate : AnyObject {
+  func coordinator(_ coordinator: PermissionPrimingCoordinator, didCompleteWithPrimedPermissions primedPermissions: Set<Permission>?, fulfilledPermissions: Set<Permission>?, unfulfilledPermissions: Set<Permission>?)
+  func displayTemplate(for coordinator: PermissionPrimingCoordinator, permissions: OrderedSet<Permission>) -> DisplayTemplate
+}
+@_hasMissingDesignatedInitializers public class PermissionPrimingCoordinator : Coordinator {
+  public var childCoordinators: [PhunwareFoundation.Coordinator]
+  public var navigationController: UINavigationController
+  weak public var delegate: PermissionPrimingCoordinatorDelegate?
+  public init(request: Request)
+  public func start()
+  @objc deinit
+}
+extension PermissionPrimingCoordinator {
+  public struct Request {
+    public let navigationController: UINavigationController
+    public let permissions: OrderedSet<OrderedSet<Permission>>
+    public init(navigationController: UINavigationController, permissions: OrderedSet<OrderedSet<Permission>>)
+  }
+}
+public class PermissionsInspector {
+  public init()
+  @objc deinit
+}
+extension PermissionsInspector {
+  public struct RequestableResult {
+    public let available: [Permission]?
+    public let fulfilled: [Permission]?
+    public let unfulfilled: [Permission]?
+  }
+  public func requestablePermissions(_ permissions: Set<Permission>, completion: @escaping (RequestableResult) -> Void)
+}
+extension PermissionsInspector {
+  public enum RequestResult {
+    case success(requested: [Permission])
+    case failure(requested: [Permission], fulfilled: [Permission], unfulfilled: [Permission])
+  }
+  public func requestPermissions(_ permissions: OrderedSet<Permission>, completion: @escaping (RequestResult) -> Void)
+}
+public struct FontInfo {
+  public let font: UIFont
+  public init(font: UIFont)
+}
+extension PhunwarePermissionPriming.LocationPermission.Accuracy : Swift.Equatable {}
+extension PhunwarePermissionPriming.LocationPermission.Accuracy : Swift.Hashable {}
