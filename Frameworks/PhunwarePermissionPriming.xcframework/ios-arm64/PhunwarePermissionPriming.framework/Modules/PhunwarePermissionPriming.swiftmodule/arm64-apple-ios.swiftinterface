@@ -172,6 +172,14 @@ extension PermissionsInspector {
   }
   public func requestPermissions(_ permissions: OrderedSet<Permission>, completion: @escaping (RequestResult) -> Void)
 }
+extension PermissionsInspector {
+  public var locationAuthorizationStatus: CLAuthorizationStatus {
+    get
+  }
+  public var locationAccuracyAuthorization: CLAccuracyAuthorization {
+    get
+  }
+}
 public struct FontInfo {
   public let font: UIFont
   public init(font: UIFont)
