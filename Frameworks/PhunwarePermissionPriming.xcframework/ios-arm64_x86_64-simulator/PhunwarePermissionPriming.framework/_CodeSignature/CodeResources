@@ -6,15 +6,15 @@
 	<dict>
 		<key>Assets.car</key>
 		<data>
-		4jgwt8svJzpVSDAUZz6OILwGUDU=
+		96Kk4Lb3CleMQ0MdmtJTaEUK7iM=
 		</data>
 		<key>BottomSheet.storyboardc/BottomSheetPrimerViewController.nib</key>
 		<data>
-		mNfN0rStG2r5c9AvP4v52yUUR9M=
+		xLEqtzHyoq9BiyaegAmW7L+ManE=
 		</data>
 		<key>BottomSheet.storyboardc/BottomSheetViewController.nib</key>
 		<data>
-		+DppFMRVX1lVpDcj/i0lQtv9aaE=
+		1HIE2gVVUDUEo+9ZmQ88FaS+P5g=
 		</data>
 		<key>BottomSheet.storyboardc/Info.plist</key>
 		<data>
@@ -22,19 +22,19 @@
 		</data>
 		<key>BottomSheet.storyboardc/JBV-g4-ccF-view-rVs-kI-9qI.nib</key>
 		<data>
-		AqHg/1f1sQKdgu5sBoZVbR7EfIs=
+		JwlQ4NslKr1ZYJuPsUNAif5wjl0=
 		</data>
 		<key>BottomSheet.storyboardc/X75-nV-8ix-view-LAm-uk-15O.nib</key>
 		<data>
-		NuyYvtmPe6lEj4JkueTdtH6qZag=
+		wQu5CnEz6BCk7uy7XCFwX0/5YRw=
 		</data>
 		<key>FullScreen.storyboardc/5uE-0z-hTi-view-fyP-KW-85M.nib</key>
 		<data>
-		n8jgu6baL/3ZVlXRGVhG028jYr8=
+		ySdqOen4KqOOZHyH4SpPiWXeT9g=
 		</data>
 		<key>FullScreen.storyboardc/FullScreenViewController.nib</key>
 		<data>
-		KMe3lw0PMJdrGBjRmZ30bCVB/ZM=
+		yVsC7fJ/JeqQx+qXoiYkfel885U=
 		</data>
 		<key>FullScreen.storyboardc/Info.plist</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Headers/PhunwarePermissionPriming-Swift.h</key>
 		<data>
-		npL01uE6uGrFYlAMN1OAW7PAd4M=
+		arQ9PsTNZ12aLMzkye8NL3OHV+8=
 		</data>
 		<key>Headers/PhunwarePermissionPriming.h</key>
 		<data>
@@ -50,36 +50,83 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		quDLnzbsIGHCzAmPrCH+Pq0pDYY=
+		6tzDPiaShE3YjC42d7rD0sO3kGs=
+		</data>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<data>
+		IHqj/m82DTdWJ5i6DL4nEda72SU=
+		</data>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		kAezO+m4hNhZa/SBh+pfzcQvaNA=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VIQQdxqQsHA7SuIhE1FhlBWj37A=
+		COSbvnLa6TtYt1Kqm1W2pfOedZA=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		G6MKIMG2cBLevniKrZM2mPm/fhw=
+		kAezO+m4hNhZa/SBh+pfzcQvaNA=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		rsgkSlFwBTsfHgJAVsK5KhMnnLA=
+		hTYRRqiq6Semy+EVgpLyi5uFuv8=
+		</data>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<data>
+		IHqj/m82DTdWJ5i6DL4nEda72SU=
+		</data>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<data>
+		wzDCvfaK5r0ZiU3KgDMubMy0aWo=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		V8fBNsbva3stw+vc74/kWIP6yQM=
+		SdLKS9rtZCSpn3BOx1lNQcpBdcU=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		9HPFDuEFot5Z63mKCPzKhP10+5E=
+		wzDCvfaK5r0ZiU3KgDMubMy0aWo=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NftN2AkXDKZcFrb2DXVI++bQoV0=
+		u0QgP3H/edju2/llkrlptLdDvII=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		v2An6GWTk0cF+GVThrzfJHahwZo=
+		jjnWvNHw4L28IqCsMW2ZSG2zL2c=
 		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		OGl4H7ny93gyz1FVztaVI+HrHt8=
+		</data>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EYhDmRBu06B8x2jwlLt8VtPk898=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fYcQajlr8j/2h6smK32EVhqaOxE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -87,21 +134,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			zsgn/Oa2sLD4QEwbJy12QtoVoy0BXGryqqQhjtpEaD0=
+			71x1BFyUnv7i+sWD+qAgFE14a4mCtwPx5AmLuZe8L1g=
 			</data>
 		</dict>
 		<key>BottomSheet.storyboardc/BottomSheetPrimerViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rDNmMEWJMSZcI1+ZQoOH8TiPJsYWyOtm3TGBpXx3tgE=
+			6Cjc9t/ojOMLV7QP9HwEC5aeN5vyU71nL7BsdvDD8Aw=
 			</data>
 		</dict>
 		<key>BottomSheet.storyboardc/BottomSheetViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			TrBvzUidvqPZpysCbivRv69hpYvBXBvnLAtzJV2AmUU=
+			bD+yoyviuEZ89JpObgKBjRmhTsRQaJrLpCkTBKkDQ4o=
 			</data>
 		</dict>
 		<key>BottomSheet.storyboardc/Info.plist</key>
@@ -115,28 +162,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			vSrHqNHiRwU2naMq6XEmfWlh4OXGBO20GsgGYITpIaI=
+			zCvTUqENACCQjORHJA2E0pEwY/rAWrOYpRUpKlvixgU=
 			</data>
 		</dict>
 		<key>BottomSheet.storyboardc/X75-nV-8ix-view-LAm-uk-15O.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vDmnE7dQRRzOZqir4lP+v4mNpxuKy/7yq/+vx+RsJq4=
+			kIh1lqEhGl3wZ7g2l1G8R+RnkObuOSRiQem0XLLIJ98=
 			</data>
 		</dict>
 		<key>FullScreen.storyboardc/5uE-0z-hTi-view-fyP-KW-85M.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3e/M+lQEi/CPBqzy1Rd2d8S0HQMTqV8eHevq5XIAM2Q=
+			RZuwo3gkWmtvDg+dwtl7Ix0QXkP6+pSfAyZEBMrUXXA=
 			</data>
 		</dict>
 		<key>FullScreen.storyboardc/FullScreenViewController.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			elYbtpOcclNltCR45XOVlZzQfnhGHi+szZREnFWsBns=
+			xiTYDQcsp8lFVXEjjFQDDA/McC0ew9QK95DtUhTQSkk=
 			</data>
 		</dict>
 		<key>FullScreen.storyboardc/Info.plist</key>
@@ -150,7 +197,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			plUoY3gNdXfysz78RFdxJFtGNC2pcl32TpHiHNVaY18=
+			pWX70w7MX6epQPoDMRadp94upvg6UmKZbey+AOIChIw=
 			</data>
 		</dict>
 		<key>Headers/PhunwarePermissionPriming.h</key>
@@ -160,54 +207,116 @@
 			yy/Z0BRfogQVzCs3iL97P7Dn7ndcpbRB/vkJlaYpcmM=
 			</data>
 		</dict>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F/12ZlSDOiF6SqYVFdcB7z5h1hxha3c+15fOEonsD/s=
+			</data>
+		</dict>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mf1kg8kJHElOELodgdEzZPE7ePjralhJxnfwdb6yNuc=
+			</data>
+		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			18d9jm/3qnVkGElBZZp7IlWweHSG5dlEEQc90xAxh08=
+			A/2loykdOzTzHu0Q7moVVh38A7hrRVmXKyEhfMVNRNA=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			vB1trq+7CEkH4L/OnjsOcNMPfVnN5REZAM9B25xKbJQ=
+			mf1kg8kJHElOELodgdEzZPE7ePjralhJxnfwdb6yNuc=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			O0FYXNR4mvY9fk4N6YCa0YO01xXOK+m7hMqXDZix1LM=
+			Fe4MrrnExoPfJuXQc8hq4nw7RHTLVq5odxWCQq8ZASs=
+			</data>
+		</dict>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F/12ZlSDOiF6SqYVFdcB7z5h1hxha3c+15fOEonsD/s=
+			</data>
+		</dict>
+		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6CW0Cd2pW9tvCuCbl+NhTqb/4SK5trDjWEyiyEH3+lk=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hhXbIWvPMu9hNbO5EC8n5otX+ICv7jLZzwVlY+ybZyQ=
+			wbGEMkaoIhpSCQBudYvTpkC2Bx/mBwdwvOFIZKYgycU=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ba1uRU0DoY07Q+2wSxb1UH00I3Vpug10vFWMY1+YVeE=
+			6CW0Cd2pW9tvCuCbl+NhTqb/4SK5trDjWEyiyEH3+lk=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WqOPaPbd0c7LDtiFDCYh5eQswyv6+AjUXIsovOZsax4=
+			jSIyjWqEO0kZ13CcLgdq4hWZldZ/4ItLBzoRM/PBkJQ=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YufeDQMFviQlNyLJcsTqZ6ubAgIl3JJiPtkBDzKbbLU=
+			QZ3BrhmRwCPPaXmvGgeD70h3pElBTN00+Uaz7aT/Ed0=
 			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ozHVGGR0Pr5OAN0iNgtKU4trOsJqaz61QJTmCjaVmhI=
+			</data>
+		</dict>
+		<key>en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
