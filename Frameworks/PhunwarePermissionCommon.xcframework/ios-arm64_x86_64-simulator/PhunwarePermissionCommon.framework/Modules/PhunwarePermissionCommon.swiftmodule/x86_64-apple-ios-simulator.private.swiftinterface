@@ -1,0 +1,211 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwarePermissionCommon
+import Foundation
+@_exported import PhunwarePermissionCommon
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@objc public class PhotosPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode : Equatable {
+    case full
+    case limited
+    case save
+    public func hash(into hasher: inout Swift.Hasher)
+    public static func == (a: PhunwarePermissionCommon.PhotosPermission.PermissionMode, b: PhunwarePermissionCommon.PhotosPermission.PermissionMode) -> Swift.Bool
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Bool
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+extension String {
+  public enum FatalError {
+    public static let internalInconsistency: Swift.String
+  }
+  public enum Assert {
+    public static let missingPresentingCandidateViewController: Swift.String
+    public static let unexpectedPermissionType: Swift.String
+  }
+}
+extension String {
+  public func localized() -> String
+}
+@objc public class BluetoothPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode {
+    case always
+    public static func == (a: PhunwarePermissionCommon.BluetoothPermission.PermissionMode, b: PhunwarePermissionCommon.BluetoothPermission.PermissionMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public class PermissionRequestable : NSObject {
+  public enum Status {
+    case allowed
+    case notAllowed(isAuthorizationCriteriaFulfilled: Bool)
+  }
+  final public let status: Status
+  public init(status: Status)
+  @objc deinit
+}
+public typealias PermissionRequestableCompletion = (PermissionRequestable) -> Void
+@objc public class RequestPermissionResult : NSObject {
+  public enum PermissionState {
+    case requested(isAuthorizationCriteriaFulfilled: Bool)
+    case notRequested(isAuthorizationCriteriaFulfilled: Bool)
+    case failed(reason: String)
+  }
+  final public let status: PermissionState
+  public init(status: PermissionState)
+  @objc deinit
+}
+public typealias RequestPermissionCompletion = (RequestPermissionResult) -> Void
+public protocol Option : Swift.CaseIterable, Swift.Hashable, Swift.RawRepresentable {
+}
+@objc public class LocationPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum Accuracy {
+    case precise
+    case approximate
+    public static func == (a: PhunwarePermissionCommon.LocationPermission.Accuracy, b: PhunwarePermissionCommon.LocationPermission.Accuracy) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum PermissonMode : Equatable {
+    case always(accuracy: Accuracy)
+    case whenInUse(accuracy: Accuracy)
+    case oneTime(purposeKey: String)
+    public static func == (a: PhunwarePermissionCommon.LocationPermission.PermissonMode, b: PhunwarePermissionCommon.LocationPermission.PermissonMode) -> Swift.Bool
+  }
+  final public let mode: PermissonMode
+  public init(mode: PermissonMode)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Bool
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public class CameraPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode {
+    case always
+    public static func == (a: PhunwarePermissionCommon.CameraPermission.PermissionMode, b: PhunwarePermissionCommon.CameraPermission.PermissionMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public class AppTrackingPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode {
+    case always
+    public static func == (a: PhunwarePermissionCommon.AppTrackingPermission.PermissionMode, b: PhunwarePermissionCommon.AppTrackingPermission.PermissionMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public class MicrophonePermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode {
+    case always
+    public static func == (a: PhunwarePermissionCommon.MicrophonePermission.PermissionMode, b: PhunwarePermissionCommon.MicrophonePermission.PermissionMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public protocol PermissionManaging {
+  @objc func requestPermission(_ permission: Permission, completion: @escaping RequestPermissionCompletion)
+  @objc func isPermissionRequestable(_ permission: Permission, completion: @escaping PermissionRequestableCompletion)
+}
+@objc public class NotificationsPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode : Equatable {
+    public typealias InteractionTypes = Set<InteractionType>
+    public enum InteractionType : String, Option {
+      case alert
+      case sound
+      case badge
+      public init?(rawValue: Swift.String)
+      public typealias AllCases = [PhunwarePermissionCommon.NotificationsPermission.PermissionMode.InteractionType]
+      public typealias RawValue = Swift.String
+      nonisolated public static var allCases: [PhunwarePermissionCommon.NotificationsPermission.PermissionMode.InteractionType] {
+        get
+      }
+      public var rawValue: Swift.String {
+        get
+      }
+    }
+    case always(InteractionTypes)
+    case provisional(InteractionTypes)
+    public static func == (a: PhunwarePermissionCommon.NotificationsPermission.PermissionMode, b: PhunwarePermissionCommon.NotificationsPermission.PermissionMode) -> Swift.Bool
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Bool
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
+@objc public class Permission : NSObject {
+  @objc final public let type: String
+  @objc public init(type: String)
+  @objc override dynamic public func isEqual(_ object: Any?) -> Bool
+  @objc override dynamic public var hash: Int {
+    @objc get
+  }
+  @objc deinit
+}
+extension PhunwarePermissionCommon.PhotosPermission.PermissionMode : Swift.Hashable {}
+extension PhunwarePermissionCommon.BluetoothPermission.PermissionMode : Swift.Equatable {}
+extension PhunwarePermissionCommon.BluetoothPermission.PermissionMode : Swift.Hashable {}
+extension PhunwarePermissionCommon.LocationPermission.Accuracy : Swift.Equatable {}
+extension PhunwarePermissionCommon.LocationPermission.Accuracy : Swift.Hashable {}
+extension PhunwarePermissionCommon.CameraPermission.PermissionMode : Swift.Equatable {}
+extension PhunwarePermissionCommon.CameraPermission.PermissionMode : Swift.Hashable {}
+extension PhunwarePermissionCommon.AppTrackingPermission.PermissionMode : Swift.Equatable {}
+extension PhunwarePermissionCommon.AppTrackingPermission.PermissionMode : Swift.Hashable {}
+extension PhunwarePermissionCommon.MicrophonePermission.PermissionMode : Swift.Equatable {}
+extension PhunwarePermissionCommon.MicrophonePermission.PermissionMode : Swift.Hashable {}

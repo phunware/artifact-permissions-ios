@@ -1,0 +1,329 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareLocationPermission",
+    "printedName": "PhunwareLocationPermission",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "PhunwarePermissionCommon",
+        "printedName": "PhunwarePermissionCommon",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit.UIApplication",
+        "printedName": "UIKit.UIApplication",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LocationManager",
+        "printedName": "LocationManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LocationManager",
+                "printedName": "PhunwareLocationPermission.LocationManager",
+                "usr": "c:@M@PhunwareLocationPermission@objc(cs)LocationManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhunwareLocationPermission@objc(cs)LocationManager(im)init",
+            "mangledName": "$s26PhunwareLocationPermission0B7ManagerCACycfc",
+            "moduleName": "PhunwareLocationPermission",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.RequestPermissionResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestPermissionResult",
+                    "printedName": "PhunwarePermissionCommon.RequestPermissionResult",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)RequestPermissionResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareLocationPermission@objc(cs)LocationManager(im)requestPermission:completion:",
+            "mangledName": "$s26PhunwareLocationPermission0B7ManagerC07requestC0_10completiony0aC6Common0C0C_yAF07RequestC6ResultCctF",
+            "moduleName": "PhunwareLocationPermission",
+            "objc_name": "requestPermission:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionRequestable",
+            "printedName": "isPermissionRequestable(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.PermissionRequestable) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionRequestable",
+                    "printedName": "PhunwarePermissionCommon.PermissionRequestable",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)PermissionRequestable"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareLocationPermission@objc(cs)LocationManager(im)isPermissionRequestable:completion:",
+            "mangledName": "$s26PhunwareLocationPermission0B7ManagerC02isC11Requestable_10completiony0aC6Common0C0C_yAF0cF0CctF",
+            "moduleName": "PhunwareLocationPermission",
+            "objc_name": "isPermissionRequestable:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "locationManagerDidChangeAuthorization",
+            "printedName": "locationManagerDidChangeAuthorization(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CLLocationManager",
+                "printedName": "CoreLocation.CLLocationManager",
+                "usr": "c:objc(cs)CLLocationManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareLocationPermission@objc(cs)LocationManager(im)locationManagerDidChangeAuthorization:",
+            "mangledName": "$s26PhunwareLocationPermission0B7ManagerC08locationD22DidChangeAuthorizationyySo010CLLocationD0CF",
+            "moduleName": "PhunwareLocationPermission",
+            "objc_name": "locationManagerDidChangeAuthorization:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhunwareLocationPermission@objc(cs)LocationManager",
+        "mangledName": "$s26PhunwareLocationPermission0B7ManagerC",
+        "moduleName": "PhunwareLocationPermission",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PermissionManaging",
+            "printedName": "PermissionManaging",
+            "usr": "c:@M@PhunwarePermissionCommon@objc(pl)PermissionManaging",
+            "mangledName": "$s24PhunwarePermissionCommon0B8ManagingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "PhunwareLocationPermission"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwareLocationPermission\/Model\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 9234,
+      "length": 71,
+      "value": "\"PhunwarePermissionPriming.isAlwaysAuthorizationUpgradeRequestConsumed\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwareLocationPermission\/Model\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14085,
+      "length": 67,
+      "value": "\"location_permission_failure_message_pending_authorization_request\""
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwareLocationPermission\/Model\/LocationManager.swift",
+      "kind": "StringLiteral",
+      "offset": 14227,
+      "length": 84,
+      "value": "\"location_permission_failure_message_declined_to_show_one_time_authorization_prompt\""
+    }
+  ]
+}

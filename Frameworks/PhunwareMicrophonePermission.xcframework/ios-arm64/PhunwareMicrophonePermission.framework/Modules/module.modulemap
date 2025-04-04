@@ -1,0 +1,6 @@
+framework module PhunwareMicrophonePermission {
+  umbrella header "PhunwareMicrophonePermission.h"
+  export *
+
+  module * { export * }
+}

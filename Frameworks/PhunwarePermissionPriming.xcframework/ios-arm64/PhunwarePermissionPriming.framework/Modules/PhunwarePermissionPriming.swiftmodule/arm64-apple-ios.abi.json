@@ -26,16 +26,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -246,6 +236,16 @@
       },
       {
         "kind": "Import",
+        "name": "PhunwarePermissionCommon",
+        "printedName": "PhunwarePermissionCommon",
+        "declKind": "Import",
+        "moduleName": "PhunwarePermissionPriming",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -269,445 +269,6 @@
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
           "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "LocationPermission",
-        "printedName": "LocationPermission",
-        "children": [
-          {
-            "kind": "TypeDecl",
-            "name": "Accuracy",
-            "printedName": "Accuracy",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "precise",
-                "printedName": "precise",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.LocationPermission.Accuracy.Type) -> PhunwarePermissionPriming.LocationPermission.Accuracy",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Accuracy",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Accuracy",
-                            "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                            "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO7preciseyA2EmF",
-                "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO7preciseyA2EmF",
-                "moduleName": "PhunwarePermissionPriming",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "approximate",
-                "printedName": "approximate",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.LocationPermission.Accuracy.Type) -> PhunwarePermissionPriming.LocationPermission.Accuracy",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Accuracy",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Accuracy",
-                            "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                            "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO11approximateyA2EmF",
-                "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO11approximateyA2EmF",
-                "moduleName": "PhunwarePermissionPriming",
-                "declAttributes": [
-                  "RawDocComment"
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "==",
-                "printedName": "==(_:_:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Accuracy",
-                    "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                    "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Accuracy",
-                    "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                    "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO2eeoiySbAE_AEtFZ",
-                "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO2eeoiySbAE_AEtFZ",
-                "moduleName": "PhunwarePermissionPriming",
-                "static": true,
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              },
-              {
-                "kind": "Var",
-                "name": "hashValue",
-                "printedName": "hashValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Int",
-                    "printedName": "Swift.Int",
-                    "usr": "s:Si"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO9hashValueSivp",
-                "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO9hashValueSivp",
-                "moduleName": "PhunwarePermissionPriming",
-                "implicit": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Int",
-                        "printedName": "Swift.Int",
-                        "usr": "s:Si"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO9hashValueSivg",
-                    "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO9hashValueSivg",
-                    "moduleName": "PhunwarePermissionPriming",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Function",
-                "name": "hash",
-                "printedName": "hash(into:)",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Hasher",
-                    "printedName": "Swift.Hasher",
-                    "paramValueOwnership": "InOut",
-                    "usr": "s:s6HasherV"
-                  }
-                ],
-                "declKind": "Func",
-                "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO4hash4intoys6HasherVz_tF",
-                "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO4hash4intoys6HasherVz_tF",
-                "moduleName": "PhunwarePermissionPriming",
-                "implicit": true,
-                "funcSelfKind": "NonMutating"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO",
-            "mangledName": "$s25PhunwarePermissionPriming08LocationB0O8AccuracyO",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "AccessControl",
-              "RawDocComment"
-            ],
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Equatable",
-                "printedName": "Equatable",
-                "usr": "s:SQ",
-                "mangledName": "$sSQ"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Hashable",
-                "printedName": "Hashable",
-                "usr": "s:SH",
-                "mangledName": "$sSH"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "always",
-            "printedName": "always",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.LocationPermission.Type) -> (PhunwarePermissionPriming.LocationPermission.Accuracy) -> PhunwarePermissionPriming.LocationPermission",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.LocationPermission.Accuracy) -> PhunwarePermissionPriming.LocationPermission",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(accuracy: PhunwarePermissionPriming.LocationPermission.Accuracy)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Accuracy",
-                            "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                            "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PhunwarePermissionPriming.LocationPermission.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:25PhunwarePermissionPriming08LocationB0O6alwaysyA2C8AccuracyO_tcACmF",
-            "mangledName": "$s25PhunwarePermissionPriming08LocationB0O6alwaysyA2C8AccuracyO_tcACmF",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "whenInUse",
-            "printedName": "whenInUse",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.LocationPermission.Type) -> (PhunwarePermissionPriming.LocationPermission.Accuracy) -> PhunwarePermissionPriming.LocationPermission",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.LocationPermission.Accuracy) -> PhunwarePermissionPriming.LocationPermission",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(accuracy: PhunwarePermissionPriming.LocationPermission.Accuracy)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Accuracy",
-                            "printedName": "PhunwarePermissionPriming.LocationPermission.Accuracy",
-                            "usr": "s:25PhunwarePermissionPriming08LocationB0O8AccuracyO"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PhunwarePermissionPriming.LocationPermission.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:25PhunwarePermissionPriming08LocationB0O9whenInUseyA2C8AccuracyO_tcACmF",
-            "mangledName": "$s25PhunwarePermissionPriming08LocationB0O9whenInUseyA2C8AccuracyO_tcACmF",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "oneTime",
-            "printedName": "oneTime",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.LocationPermission.Type) -> (Swift.String) -> PhunwarePermissionPriming.LocationPermission",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(Swift.String) -> PhunwarePermissionPriming.LocationPermission",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Tuple",
-                        "printedName": "(purposeKey: Swift.String)",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "String",
-                            "printedName": "Swift.String",
-                            "usr": "s:SS"
-                          }
-                        ]
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PhunwarePermissionPriming.LocationPermission.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:25PhunwarePermissionPriming08LocationB0O7oneTimeyACSS_tcACmF",
-            "mangledName": "$s25PhunwarePermissionPriming08LocationB0O7oneTimeyACSS_tcACmF",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:25PhunwarePermissionPriming08LocationB0O",
-        "mangledName": "$s25PhunwarePermissionPriming08LocationB0O",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
         ]
       },
       {
@@ -1399,29 +960,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit.UIApplication",
-        "printedName": "UIKit.UIApplication",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
@@ -3182,75 +2722,6 @@
         ]
       },
       {
-        "kind": "TypeDecl",
-        "name": "Option",
-        "printedName": "Option",
-        "declKind": "Protocol",
-        "usr": "s:25PhunwarePermissionPriming6OptionP",
-        "mangledName": "$s25PhunwarePermissionPriming6OptionP",
-        "moduleName": "PhunwarePermissionPriming",
-        "genericSig": "<τ_0_0 : Swift.CaseIterable, τ_0_0 : Swift.Hashable, τ_0_0 : Swift.RawRepresentable>",
-        "sugared_genericSig": "<Self : Swift.CaseIterable, Self : Swift.Hashable, Self : Swift.RawRepresentable>",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "CaseIterable",
-            "printedName": "CaseIterable",
-            "usr": "s:s12CaseIterableP",
-            "mangledName": "$ss12CaseIterableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
         "kind": "Import",
         "name": "UIKit.UIView",
         "printedName": "UIKit.UIView",
@@ -3264,16 +2735,6 @@
         "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
@@ -3505,216 +2966,8 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "Permission",
-        "printedName": "Permission",
-        "children": [
-          {
-            "kind": "Var",
-            "name": "location",
-            "printedName": "location",
-            "children": [
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.Permission.Type) -> (PhunwarePermissionPriming.LocationPermission) -> PhunwarePermissionPriming.Permission",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.LocationPermission) -> PhunwarePermissionPriming.Permission",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "LocationPermission",
-                        "printedName": "PhunwarePermissionPriming.LocationPermission",
-                        "usr": "s:25PhunwarePermissionPriming08LocationB0O"
-                      }
-                    ]
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Metatype",
-                    "printedName": "PhunwarePermissionPriming.Permission.Type",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
-                      }
-                    ]
-                  }
-                ]
-              }
-            ],
-            "declKind": "EnumElement",
-            "usr": "s:25PhunwarePermissionPriming0B0O8locationyAcA08LocationB0OcACmF",
-            "mangledName": "$s25PhunwarePermissionPriming0B0O8locationyAcA08LocationB0OcACmF",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "RawDocComment"
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "rawValue",
-            "printedName": "rawValue",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25PhunwarePermissionPriming0B0O8rawValueSSvp",
-            "mangledName": "$s25PhunwarePermissionPriming0B0O8rawValueSSvp",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25PhunwarePermissionPriming0B0O8rawValueSSvg",
-                "mangledName": "$s25PhunwarePermissionPriming0B0O8rawValueSSvg",
-                "moduleName": "PhunwarePermissionPriming",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init(rawValue:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Optional",
-                "printedName": "PhunwarePermissionPriming.Permission?",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Permission",
-                    "printedName": "PhunwarePermissionPriming.Permission",
-                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                  }
-                ],
-                "usr": "s:Sq"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:25PhunwarePermissionPriming0B0O8rawValueACSgSS_tcfc",
-            "mangledName": "$s25PhunwarePermissionPriming0B0O8rawValueACSgSS_tcfc",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "isFromExtension": true,
-            "init_kind": "Designated"
-          }
-        ],
-        "declKind": "Enum",
-        "usr": "s:25PhunwarePermissionPriming0B0O",
-        "mangledName": "$s25PhunwarePermissionPriming0B0O",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "AccessControl",
-          "RawDocComment"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "RawRepresentable",
-            "printedName": "RawRepresentable",
-            "children": [
-              {
-                "kind": "TypeWitness",
-                "name": "RawValue",
-                "printedName": "RawValue",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
-                  }
-                ]
-              }
-            ],
-            "usr": "s:SY",
-            "mangledName": "$sSY"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Hashable",
-            "printedName": "Hashable",
-            "usr": "s:SH",
-            "mangledName": "$sSH"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Equatable",
-            "printedName": "Equatable",
-            "usr": "s:SQ",
-            "mangledName": "$sSQ"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
@@ -4679,30 +3932,6 @@
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
           "RawDocComment"
@@ -4747,18 +3976,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>?",
+                "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Set",
-                    "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>",
+                    "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
+                        "printedName": "PhunwarePermissionCommon.Permission",
+                        "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                       }
                     ],
                     "usr": "s:Sh"
@@ -4769,18 +3998,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>?",
+                "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Set",
-                    "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>",
+                    "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
+                        "printedName": "PhunwarePermissionCommon.Permission",
+                        "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                       }
                     ],
                     "usr": "s:Sh"
@@ -4791,18 +4020,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>?",
+                "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Set",
-                    "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>",
+                    "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
+                        "printedName": "PhunwarePermissionCommon.Permission",
+                        "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                       }
                     ],
                     "usr": "s:Sh"
@@ -4813,18 +4042,18 @@
               {
                 "kind": "TypeNominal",
                 "name": "Optional",
-                "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>?",
+                "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>?",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Set",
-                    "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>",
+                    "printedName": "Swift.Set<PhunwarePermissionCommon.Permission>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "Permission",
-                        "printedName": "PhunwarePermissionPriming.Permission",
-                        "usr": "s:25PhunwarePermissionPriming0B0O"
+                        "printedName": "PhunwarePermissionCommon.Permission",
+                        "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                       }
                     ],
                     "usr": "s:Sh"
@@ -4834,8 +4063,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:25PhunwarePermissionPriming0bC19CoordinatorDelegateP11coordinator_32didCompleteWithPrimedPermissions09fulfilledK0011unfulfilledK006failedK0AA0bC26CompletionNavigationActionOAA0bcD0C_ShyAA0B0OGSgA3PtF",
-            "mangledName": "$s25PhunwarePermissionPriming0bC19CoordinatorDelegateP11coordinator_32didCompleteWithPrimedPermissions09fulfilledK0011unfulfilledK006failedK0AA0bC26CompletionNavigationActionOAA0bcD0C_ShyAA0B0OGSgA3PtF",
+            "usr": "s:25PhunwarePermissionPriming0bC19CoordinatorDelegateP11coordinator_32didCompleteWithPrimedPermissions09fulfilledK0011unfulfilledK006failedK0AA0bC26CompletionNavigationActionOAA0bcD0C_Shy0aB6Common0B0CGSgA3QtF",
+            "mangledName": "$s25PhunwarePermissionPriming0bC19CoordinatorDelegateP11coordinator_32didCompleteWithPrimedPermissions09fulfilledK0011unfulfilledK006failedK0AA0bC26CompletionNavigationActionOAA0bcD0C_Shy0aB6Common0B0CGSgA3QtF",
             "moduleName": "PhunwarePermissionPriming",
             "genericSig": "<τ_0_0 where τ_0_0 : PhunwarePermissionPriming.PermissionPrimingCoordinatorDelegate>",
             "sugared_genericSig": "<Self where Self : PhunwarePermissionPriming.PermissionPrimingCoordinatorDelegate>",
@@ -4863,21 +4092,21 @@
               {
                 "kind": "TypeNominal",
                 "name": "OrderedSet",
-                "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>",
+                "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>",
                 "children": [
                   {
                     "kind": "TypeNominal",
                     "name": "Permission",
-                    "printedName": "PhunwarePermissionPriming.Permission",
-                    "usr": "s:25PhunwarePermissionPriming0B0O"
+                    "printedName": "PhunwarePermissionCommon.Permission",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                   }
                 ],
                 "usr": "s:25PhunwarePermissionPriming10OrderedSetV"
               }
             ],
             "declKind": "Func",
-            "usr": "s:25PhunwarePermissionPriming0bC19CoordinatorDelegateP15displayTemplate3for11permissionsAA07DisplayG0OAA0bcD0C_AA10OrderedSetVyAA0B0OGtF",
-            "mangledName": "$s25PhunwarePermissionPriming0bC19CoordinatorDelegateP15displayTemplate3for11permissionsAA07DisplayG0OAA0bcD0C_AA10OrderedSetVyAA0B0OGtF",
+            "usr": "s:25PhunwarePermissionPriming0bC19CoordinatorDelegateP15displayTemplate3for11permissionsAA07DisplayG0OAA0bcD0C_AA10OrderedSetVy0aB6Common0B0CGtF",
+            "mangledName": "$s25PhunwarePermissionPriming0bC19CoordinatorDelegateP15displayTemplate3for11permissionsAA07DisplayG0OAA0bcD0C_AA10OrderedSetVy0aB6Common0B0CGtF",
             "moduleName": "PhunwarePermissionPriming",
             "genericSig": "<τ_0_0 where τ_0_0 : PhunwarePermissionPriming.PermissionPrimingCoordinatorDelegate>",
             "sugared_genericSig": "<Self where Self : PhunwarePermissionPriming.PermissionPrimingCoordinatorDelegate>",
@@ -5323,18 +4552,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "OrderedSet",
-                    "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>>",
+                    "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OrderedSet",
-                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>",
+                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Permission",
-                            "printedName": "PhunwarePermissionPriming.Permission",
-                            "usr": "s:25PhunwarePermissionPriming0B0O"
+                            "printedName": "PhunwarePermissionCommon.Permission",
+                            "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                           }
                         ],
                         "usr": "s:25PhunwarePermissionPriming10OrderedSetV"
@@ -5344,8 +4573,8 @@
                   }
                 ],
                 "declKind": "Var",
-                "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHyAA0B0OGGvp",
-                "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHyAA0B0OGGvp",
+                "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHy0aB6Common0B0CGGvp",
+                "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHy0aB6Common0B0CGGvp",
                 "moduleName": "PhunwarePermissionPriming",
                 "declAttributes": [
                   "HasStorage",
@@ -5363,18 +4592,18 @@
                       {
                         "kind": "TypeNominal",
                         "name": "OrderedSet",
-                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>>",
+                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "OrderedSet",
-                            "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>",
+                            "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>",
                             "children": [
                               {
                                 "kind": "TypeNominal",
                                 "name": "Permission",
-                                "printedName": "PhunwarePermissionPriming.Permission",
-                                "usr": "s:25PhunwarePermissionPriming0B0O"
+                                "printedName": "PhunwarePermissionCommon.Permission",
+                                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                               }
                             ],
                             "usr": "s:25PhunwarePermissionPriming10OrderedSetV"
@@ -5384,8 +4613,8 @@
                       }
                     ],
                     "declKind": "Accessor",
-                    "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHyAA0B0OGGvg",
-                    "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHyAA0B0OGGvg",
+                    "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHy0aB6Common0B0CGGvg",
+                    "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV11permissionsAA10OrderedSetVyAHy0aB6Common0B0CGGvg",
                     "moduleName": "PhunwarePermissionPriming",
                     "implicit": true,
                     "accessorKind": "get"
@@ -5412,18 +4641,18 @@
                   {
                     "kind": "TypeNominal",
                     "name": "OrderedSet",
-                    "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>>",
+                    "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>>",
                     "children": [
                       {
                         "kind": "TypeNominal",
                         "name": "OrderedSet",
-                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>",
+                        "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionCommon.Permission>",
                         "children": [
                           {
                             "kind": "TypeNominal",
                             "name": "Permission",
-                            "printedName": "PhunwarePermissionPriming.Permission",
-                            "usr": "s:25PhunwarePermissionPriming0B0O"
+                            "printedName": "PhunwarePermissionCommon.Permission",
+                            "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
                           }
                         ],
                         "usr": "s:25PhunwarePermissionPriming10OrderedSetV"
@@ -5433,8 +4662,8 @@
                   }
                 ],
                 "declKind": "Constructor",
-                "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV20navigationController11permissionsAESo012UINavigationG0C_AA10OrderedSetVyAKyAA0B0OGGtcfc",
-                "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV20navigationController11permissionsAESo012UINavigationG0C_AA10OrderedSetVyAKyAA0B0OGGtcfc",
+                "usr": "s:25PhunwarePermissionPriming0bC11CoordinatorC7RequestV20navigationController11permissionsAESo012UINavigationG0C_AA10OrderedSetVyAKy0aB6Common0B0CGGtcfc",
+                "mangledName": "$s25PhunwarePermissionPriming0bC11CoordinatorC7RequestV20navigationController11permissionsAESo012UINavigationG0C_AA10OrderedSetVyAKy0aB6Common0B0CGGtcfc",
                 "moduleName": "PhunwarePermissionPriming",
                 "declAttributes": [
                   "AccessControl",
@@ -5514,708 +4743,6 @@
       },
       {
         "kind": "Import",
-        "name": "CoreLocation",
-        "printedName": "CoreLocation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "PhunwarePermissionPriming"
-      },
-      {
-        "kind": "TypeDecl",
-        "name": "PermissionsInspector",
-        "printedName": "PermissionsInspector",
-        "children": [
-          {
-            "kind": "Constructor",
-            "name": "init",
-            "printedName": "init()",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "PermissionsInspector",
-                "printedName": "PhunwarePermissionPriming.PermissionsInspector",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC"
-              }
-            ],
-            "declKind": "Constructor",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorCACycfc",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorCACycfc",
-            "moduleName": "PhunwarePermissionPriming",
-            "declAttributes": [
-              "AccessControl"
-            ],
-            "init_kind": "Designated"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "RequestableResult",
-            "printedName": "RequestableResult",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "available",
-                "printedName": "available",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[PhunwarePermissionPriming.Permission]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PhunwarePermissionPriming.Permission]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Permission",
-                            "printedName": "PhunwarePermissionPriming.Permission",
-                            "usr": "s:25PhunwarePermissionPriming0B0O"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9availableSayAA0B0OGSgvp",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9availableSayAA0B0OGSgvp",
-                "moduleName": "PhunwarePermissionPriming",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[PhunwarePermissionPriming.Permission]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Array",
-                            "printedName": "[PhunwarePermissionPriming.Permission]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Permission",
-                                "printedName": "PhunwarePermissionPriming.Permission",
-                                "usr": "s:25PhunwarePermissionPriming0B0O"
-                              }
-                            ],
-                            "usr": "s:Sa"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9availableSayAA0B0OGSgvg",
-                    "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9availableSayAA0B0OGSgvg",
-                    "moduleName": "PhunwarePermissionPriming",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "fulfilled",
-                "printedName": "fulfilled",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[PhunwarePermissionPriming.Permission]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PhunwarePermissionPriming.Permission]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Permission",
-                            "printedName": "PhunwarePermissionPriming.Permission",
-                            "usr": "s:25PhunwarePermissionPriming0B0O"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9fulfilledSayAA0B0OGSgvp",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9fulfilledSayAA0B0OGSgvp",
-                "moduleName": "PhunwarePermissionPriming",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[PhunwarePermissionPriming.Permission]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Array",
-                            "printedName": "[PhunwarePermissionPriming.Permission]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Permission",
-                                "printedName": "PhunwarePermissionPriming.Permission",
-                                "usr": "s:25PhunwarePermissionPriming0B0O"
-                              }
-                            ],
-                            "usr": "s:Sa"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9fulfilledSayAA0B0OGSgvg",
-                    "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV9fulfilledSayAA0B0OGSgvg",
-                    "moduleName": "PhunwarePermissionPriming",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              },
-              {
-                "kind": "Var",
-                "name": "unfulfilled",
-                "printedName": "unfulfilled",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Optional",
-                    "printedName": "[PhunwarePermissionPriming.Permission]?",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Array",
-                        "printedName": "[PhunwarePermissionPriming.Permission]",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Permission",
-                            "printedName": "PhunwarePermissionPriming.Permission",
-                            "usr": "s:25PhunwarePermissionPriming0B0O"
-                          }
-                        ],
-                        "usr": "s:Sa"
-                      }
-                    ],
-                    "usr": "s:Sq"
-                  }
-                ],
-                "declKind": "Var",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV11unfulfilledSayAA0B0OGSgvp",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV11unfulfilledSayAA0B0OGSgvp",
-                "moduleName": "PhunwarePermissionPriming",
-                "declAttributes": [
-                  "HasStorage",
-                  "AccessControl"
-                ],
-                "isLet": true,
-                "hasStorage": true,
-                "accessors": [
-                  {
-                    "kind": "Accessor",
-                    "name": "Get",
-                    "printedName": "Get()",
-                    "children": [
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Optional",
-                        "printedName": "[PhunwarePermissionPriming.Permission]?",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Array",
-                            "printedName": "[PhunwarePermissionPriming.Permission]",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Permission",
-                                "printedName": "PhunwarePermissionPriming.Permission",
-                                "usr": "s:25PhunwarePermissionPriming0B0O"
-                              }
-                            ],
-                            "usr": "s:Sa"
-                          }
-                        ],
-                        "usr": "s:Sq"
-                      }
-                    ],
-                    "declKind": "Accessor",
-                    "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV11unfulfilledSayAA0B0OGSgvg",
-                    "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV11unfulfilledSayAA0B0OGSgvg",
-                    "moduleName": "PhunwarePermissionPriming",
-                    "implicit": true,
-                    "accessorKind": "get"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Struct",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "requestablePermissions",
-            "printedName": "requestablePermissions(_:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "Set",
-                "printedName": "Swift.Set<PhunwarePermissionPriming.Permission>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Permission",
-                    "printedName": "PhunwarePermissionPriming.Permission",
-                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                  }
-                ],
-                "usr": "s:Sh"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.PermissionsInspector.RequestableResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RequestableResult",
-                    "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestableResult",
-                    "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC17RequestableResultV"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC011requestableD0_10completionyShyAA0B0OG_yAC17RequestableResultVctF",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC011requestableD0_10completionyShyAA0B0OG_yAC17RequestableResultVctF",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "TypeDecl",
-            "name": "RequestResult",
-            "printedName": "RequestResult",
-            "children": [
-              {
-                "kind": "Var",
-                "name": "success",
-                "printedName": "success",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.PermissionsInspector.RequestResult.Type) -> ([PhunwarePermissionPriming.Permission]) -> PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([PhunwarePermissionPriming.Permission]) -> PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RequestResult",
-                            "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(requested: [PhunwarePermissionPriming.Permission])",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[PhunwarePermissionPriming.Permission]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Permission",
-                                    "printedName": "PhunwarePermissionPriming.Permission",
-                                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RequestResult",
-                            "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO7successyAESayAA0B0OG_tcAEmF",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO7successyAESayAA0B0OG_tcAEmF",
-                "moduleName": "PhunwarePermissionPriming"
-              },
-              {
-                "kind": "Var",
-                "name": "failure",
-                "printedName": "failure",
-                "children": [
-                  {
-                    "kind": "TypeFunc",
-                    "name": "Function",
-                    "printedName": "(PhunwarePermissionPriming.PermissionsInspector.RequestResult.Type) -> ([PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission]) -> PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                    "children": [
-                      {
-                        "kind": "TypeFunc",
-                        "name": "Function",
-                        "printedName": "([PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission], [PhunwarePermissionPriming.Permission]) -> PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RequestResult",
-                            "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO"
-                          },
-                          {
-                            "kind": "TypeNominal",
-                            "name": "Tuple",
-                            "printedName": "(requested: [PhunwarePermissionPriming.Permission], fulfilled: [PhunwarePermissionPriming.Permission], unfulfilled: [PhunwarePermissionPriming.Permission], failed: [PhunwarePermissionPriming.Permission])",
-                            "children": [
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[PhunwarePermissionPriming.Permission]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Permission",
-                                    "printedName": "PhunwarePermissionPriming.Permission",
-                                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[PhunwarePermissionPriming.Permission]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Permission",
-                                    "printedName": "PhunwarePermissionPriming.Permission",
-                                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[PhunwarePermissionPriming.Permission]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Permission",
-                                    "printedName": "PhunwarePermissionPriming.Permission",
-                                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              },
-                              {
-                                "kind": "TypeNominal",
-                                "name": "Array",
-                                "printedName": "[PhunwarePermissionPriming.Permission]",
-                                "children": [
-                                  {
-                                    "kind": "TypeNominal",
-                                    "name": "Permission",
-                                    "printedName": "PhunwarePermissionPriming.Permission",
-                                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                                  }
-                                ],
-                                "usr": "s:Sa"
-                              }
-                            ]
-                          }
-                        ]
-                      },
-                      {
-                        "kind": "TypeNominal",
-                        "name": "Metatype",
-                        "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult.Type",
-                        "children": [
-                          {
-                            "kind": "TypeNominal",
-                            "name": "RequestResult",
-                            "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO"
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                ],
-                "declKind": "EnumElement",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO7failureyAESayAA0B0OG_A3ItcAEmF",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO7failureyAESayAA0B0OG_A3ItcAEmF",
-                "moduleName": "PhunwarePermissionPriming"
-              }
-            ],
-            "declKind": "Enum",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "conformances": [
-              {
-                "kind": "Conformance",
-                "name": "Copyable",
-                "printedName": "Copyable",
-                "usr": "s:s8CopyableP",
-                "mangledName": "$ss8CopyableP"
-              },
-              {
-                "kind": "Conformance",
-                "name": "Escapable",
-                "printedName": "Escapable",
-                "usr": "s:s9EscapableP",
-                "mangledName": "$ss9EscapableP"
-              }
-            ]
-          },
-          {
-            "kind": "Function",
-            "name": "requestPermissions",
-            "printedName": "requestPermissions(_:completion:)",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "Void",
-                "printedName": "()"
-              },
-              {
-                "kind": "TypeNominal",
-                "name": "OrderedSet",
-                "printedName": "PhunwarePermissionPriming.OrderedSet<PhunwarePermissionPriming.Permission>",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Permission",
-                    "printedName": "PhunwarePermissionPriming.Permission",
-                    "usr": "s:25PhunwarePermissionPriming0B0O"
-                  }
-                ],
-                "usr": "s:25PhunwarePermissionPriming10OrderedSetV"
-              },
-              {
-                "kind": "TypeFunc",
-                "name": "Function",
-                "printedName": "(PhunwarePermissionPriming.PermissionsInspector.RequestResult) -> ()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "Void",
-                    "printedName": "()"
-                  },
-                  {
-                    "kind": "TypeNominal",
-                    "name": "RequestResult",
-                    "printedName": "PhunwarePermissionPriming.PermissionsInspector.RequestResult",
-                    "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC13RequestResultO"
-                  }
-                ]
-              }
-            ],
-            "declKind": "Func",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC07requestD0_10completionyAA10OrderedSetVyAA0B0OG_yAC13RequestResultOctF",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC07requestD0_10completionyAA10OrderedSetVyAA0B0OG_yAC13RequestResultOctF",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "funcSelfKind": "NonMutating"
-          },
-          {
-            "kind": "Var",
-            "name": "locationAuthorizationStatus",
-            "printedName": "locationAuthorizationStatus",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CLAuthorizationStatus",
-                "printedName": "CoreLocation.CLAuthorizationStatus",
-                "usr": "c:@E@CLAuthorizationStatus"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC27locationAuthorizationStatusSo015CLAuthorizationH0Vvp",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC27locationAuthorizationStatusSo015CLAuthorizationH0Vvp",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CLAuthorizationStatus",
-                    "printedName": "CoreLocation.CLAuthorizationStatus",
-                    "usr": "c:@E@CLAuthorizationStatus"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC27locationAuthorizationStatusSo015CLAuthorizationH0Vvg",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC27locationAuthorizationStatusSo015CLAuthorizationH0Vvg",
-                "moduleName": "PhunwarePermissionPriming",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          },
-          {
-            "kind": "Var",
-            "name": "locationAccuracyAuthorization",
-            "printedName": "locationAccuracyAuthorization",
-            "children": [
-              {
-                "kind": "TypeNominal",
-                "name": "CLAccuracyAuthorization",
-                "printedName": "CoreLocation.CLAccuracyAuthorization",
-                "usr": "c:@E@CLAccuracyAuthorization"
-              }
-            ],
-            "declKind": "Var",
-            "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC29locationAccuracyAuthorizationSo010CLAccuracyH0Vvp",
-            "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC29locationAccuracyAuthorizationSo010CLAccuracyH0Vvp",
-            "moduleName": "PhunwarePermissionPriming",
-            "isFromExtension": true,
-            "accessors": [
-              {
-                "kind": "Accessor",
-                "name": "Get",
-                "printedName": "Get()",
-                "children": [
-                  {
-                    "kind": "TypeNominal",
-                    "name": "CLAccuracyAuthorization",
-                    "printedName": "CoreLocation.CLAccuracyAuthorization",
-                    "usr": "c:@E@CLAccuracyAuthorization"
-                  }
-                ],
-                "declKind": "Accessor",
-                "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC29locationAccuracyAuthorizationSo010CLAccuracyH0Vvg",
-                "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC29locationAccuracyAuthorizationSo010CLAccuracyH0Vvg",
-                "moduleName": "PhunwarePermissionPriming",
-                "isFromExtension": true,
-                "accessorKind": "get"
-              }
-            ]
-          }
-        ],
-        "declKind": "Class",
-        "usr": "s:25PhunwarePermissionPriming20PermissionsInspectorC",
-        "mangledName": "$s25PhunwarePermissionPriming20PermissionsInspectorC",
-        "moduleName": "PhunwarePermissionPriming",
-        "declAttributes": [
-          "AccessControl"
-        ],
-        "conformances": [
-          {
-            "kind": "Conformance",
-            "name": "Copyable",
-            "printedName": "Copyable",
-            "usr": "s:s8CopyableP",
-            "mangledName": "$ss8CopyableP"
-          },
-          {
-            "kind": "Conformance",
-            "name": "Escapable",
-            "printedName": "Escapable",
-            "usr": "s:s9EscapableP",
-            "mangledName": "$ss9EscapableP"
-          }
-        ]
-      },
-      {
-        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -6266,6 +4793,13 @@
         "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "PhunwarePermissionPriming"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
         "declKind": "Import",
         "moduleName": "PhunwarePermissionPriming"
       },
@@ -6331,13 +4865,55 @@
         ]
       },
       {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
+        "kind": "TypeDecl",
+        "name": "PermissionManager",
+        "printedName": "PermissionManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PermissionManager",
+                "printedName": "PhunwarePermissionPriming.PermissionManager",
+                "usr": "s:25PhunwarePermissionPriming0B7ManagerC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:25PhunwarePermissionPriming0B7ManagerCACycfc",
+            "mangledName": "$s25PhunwarePermissionPriming0B7ManagerCACycfc",
+            "moduleName": "PhunwarePermissionPriming",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:25PhunwarePermissionPriming0B7ManagerC",
+        "mangledName": "$s25PhunwarePermissionPriming0B7ManagerC",
         "moduleName": "PhunwarePermissionPriming",
         "declAttributes": [
-          "RawDocComment"
+          "Final",
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -6587,60 +5163,11 @@
       "value": "0.2"
     },
     {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Common\/Extensions\/String+Assertions.swift",
-      "kind": "StringLiteral",
-      "offset": 274,
-      "length": 24,
-      "value": "\"Internal Inconsistency\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Common\/Extensions\/String+Assertions.swift",
-      "kind": "StringLiteral",
-      "offset": 399,
-      "length": 48,
-      "value": "\"Expected a view controller that could present.\""
-    },
-    {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/DisplayTemplate\/View\/DisplayTemplateCoordinator.swift",
       "kind": "BooleanLiteral",
       "offset": 1097,
       "length": 5,
       "value": "false"
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Location\/Model\/LocationPermission.swift",
-      "kind": "StringLiteral",
-      "offset": 343,
-      "length": 46,
-      "value": "\"PhunwarePermissionPriming.LocationPermission\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Location\/Model\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 7864,
-      "length": 71,
-      "value": "\"PhunwarePermissionPriming.isAlwaysAuthorizationUpgradeRequestConsumed\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Location\/Model\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12544,
-      "length": 67,
-      "value": "\"location_permission_failure_message_pending_authorization_request\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Location\/Model\/LocationManager.swift",
-      "kind": "StringLiteral",
-      "offset": 12686,
-      "length": 84,
-      "value": "\"location_permission_failure_message_declined_to_show_one_time_authorization_prompt\""
-    },
-    {
-      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Common\/Extensions\/String+Localization.swift",
-      "kind": "StringLiteral",
-      "offset": 613,
-      "length": 13,
-      "value": "\"Localizable\""
     },
     {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/DisplayTemplate\/FullScreen\/ViewModel\/FullScreenViewModel.swift",
@@ -6683,6 +5210,20 @@
       "offset": 2258,
       "length": 3,
       "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Model\/PermissionManager.swift",
+      "kind": "Dictionary",
+      "offset": 295,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Model\/PermissionManager.swift",
+      "kind": "StringLiteral",
+      "offset": 2884,
+      "length": 27,
+      "value": "\"PhunwarePermissionPriming\""
     },
     {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/DisplayTemplate\/BottomSheet\/ViewModel\/BottomSheetPrimerViewModel.swift",
