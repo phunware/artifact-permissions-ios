@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwarePermissionCommon.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		6oJ+WKfAiPHJO2P0ImpGJUcuK2g=
+		Y0mEEpf4yNuCW5nAQfDj5rdCGJg=
 		</data>
 		<key>Modules/PhunwarePermissionCommon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwarePermissionCommon.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uSkRtFPEtHmEXcMVE2eCzo2Bcmc=
+		lgpCodgBvCgYyNGuyIe3SOXrAXc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8ybNAOscyBYLsV//karUA3MYZ1tEbwdQ6PseowbmL1c=
+			g/rmvem6e0WnpSCw1TqDanDEhxv00GCprV39TuE8Ccs=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionCommon.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DLIdVVi78yPxIZ3KRroMXlJz/2q5GAgW+oJo/Vd5n+k=
+			+1dys/fdmIeYJ+Ct5AQP8WMN8k615lEDzthtmA6q/IY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

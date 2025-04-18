@@ -34,7 +34,7 @@
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		6HqiP8tmzcOl1FPB4WpD53t17k0=
+		WWguZvZ+JuuIW6tVYGHUqKcuPnU=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		GFw8UP4sOSqtw9mv31ted/VWhno=
+		tMGMdtBX6aRW4BT/9Jwoed+Qp00=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		YQQN+ABy7rQV47MIXvgDx/zMoow=
+		SH3jzsHzCja64P8G+X4i1cd/V9c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -195,7 +195,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Rb7DAa+XI8wFl5/IH5c4ogPrJ3QfJJshww6Ol41yw3E=
+			kux3upBdfw/h9rZwCDgGtnF8/QPZU65dlDFU695Aq1A=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
@@ -272,7 +272,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QMSEC6rpIL3mFeDEQrUHtr+zW/miI8rUe2KMxM0IiC8=
+			xg7z0EmAZp3OQpNIMQI1BJorc6gUY4ioHtC9ZvnsUGo=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -307,7 +307,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			45G+6ScfzRKYEEd3674LpOaKOsXE1xhsZyofF77/W4s=
+			DmZiHiLvqIfo4I0jNDvDqHqDJSz1ZTTP7gwIf2u1HSw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

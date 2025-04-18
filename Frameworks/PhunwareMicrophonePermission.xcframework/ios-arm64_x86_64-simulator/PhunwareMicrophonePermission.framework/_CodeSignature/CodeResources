@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		vgUJyIYM0Ky7TCFETs2A2hdi1O8=
+		VM1KcAjJYpCiC/Y0lECdsuFYGVk=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		uuIKQXAJ/C5UKgtVZfLBuIJzCzc=
+		ZQaCxOgWgqx8Y9rpXMowS6Vj5og=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XAFKhlyt5tkpUd6iM9yLIwCKN08=
+		9XQ90cQ3kXLHazCQFJkVIMbaCfc=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			dFP6T/lTZjEjESuDu3iJN32Gn4AquEkGCXR73laiNrk=
+			9psF5vSRfc4V5eHbBWiHp8srhPl4Luh8B3IuxiB/eik=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
@@ -158,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oFnQmqpu6Ewyjt3ipA0hJ20TvUsJpsOIdEKB0NGA1Gg=
+			jIYfoK+xRCPdIc1z/RbkmeELoyH8jc5qyH0z4uXc6yA=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MeBlLWCWcdw3mWeHhEZqDU7HbxCcauh1VF/eSQquRCk=
+			e/iQJ8Dr+jjpkRFdZiiP2u6/dg7M7j1Jqc5nSwaVlsE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

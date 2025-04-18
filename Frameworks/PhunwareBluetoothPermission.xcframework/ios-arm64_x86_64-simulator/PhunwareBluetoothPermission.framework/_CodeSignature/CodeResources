@@ -10,7 +10,7 @@
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		wspfBwEAF5VtY7UOvGKMQw5u1bU=
+		U+5MYh73WxbL98m9E/Dlrfq3pH4=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
@@ -42,7 +42,7 @@
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		4N3Lzoq8RLoswprPFjWauLRW6Co=
+		pnnFiANSgtRlTXhzNyxcBcGly74=
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -62,7 +62,7 @@
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B5o9hzdOlhP0dDvACVORFE0M+Sw=
+		RDzEDgeNTx83rQ/ydBlkb2o1Iqk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -109,7 +109,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			bpaKZNSPVSNuhF8TZxroTkaW1aTC5ZNIZyn1H7ASOcQ=
+			TSan/cRxPjuFzIbxh0tHFzBsq4cinqCupN4TCRfWFFw=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
@@ -158,7 +158,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			gkTcpn01xUEBhkXyvCdVdHFWncAQrQbyLXh4VkXCPNY=
+			MP3u5sVUDD5fDohD9GwceUrndeyJsFm8WI/xB+8c/ds=
 			</data>
 		</dict>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -193,7 +193,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			x8Lt4YcEUJCfhQeB+BOeo/W4sgzTzC9l6eTPrvee9xE=
+			TPUT3iesMvpfZpr4cSgBCZdLUOKUO+eooZ4y20Yifig=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
