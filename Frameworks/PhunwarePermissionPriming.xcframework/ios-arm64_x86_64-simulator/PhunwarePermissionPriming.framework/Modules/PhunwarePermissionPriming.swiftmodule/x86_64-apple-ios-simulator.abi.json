@@ -5221,7 +5221,7 @@
     {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Model\/PermissionManager.swift",
       "kind": "StringLiteral",
-      "offset": 2884,
+      "offset": 3155,
       "length": 27,
       "value": "\"PhunwarePermissionPriming\""
     },

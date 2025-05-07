@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
 		<data>
-		BGwSpxQUB4lRYs7Ixa1ktsgr1xc=
+		jCN67lQH1JD6bAhxp69qZxNm/bo=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		CmkMUvISbfSKWsdLIF2LuUyucw8=
+		1UM2KHtyost4dCKWbvrs4cew35Q=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lq1iMV9DoU42N0c2pQXM3DR+wm0=
+		HwSkx9yTDzG5xf8XUVtoCz4noA0=
 		</data>
 		<key>Headers/PhunwareNotificationsPermission.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jGAkK8n7k6Jm8JxUVv4+fv9ga74=
+		+cr1KpvZGCEyrY2NGCBUqTh6S5k=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,21 +102,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TfDfpUgHCzcs0h0kJYhCbnXeRAX2RkZ/RTMT2iLrp8=
+			SEIKovVjNJvdTcT26bSxi11aYQfGuC+EEZyyV8IkSoM=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			nfER09m8EhAmAqEnrkLRz7YAmgpZaVdOz+Ci+HCQG8I=
+			5sqVpsuD2fXdpkaDxj3UI0luuB99j6Ab7pTHZGfEToY=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iYnNlNv5uoSw7jz8ULUETNjm1ay0HKAkH6pOee/QrBo=
+			3KQunwOPwJiwXEWr9ppcaCZuTJs/+ezOro2WMZBysD4=
 			</data>
 		</dict>
 		<key>Headers/PhunwareNotificationsPermission.h</key>

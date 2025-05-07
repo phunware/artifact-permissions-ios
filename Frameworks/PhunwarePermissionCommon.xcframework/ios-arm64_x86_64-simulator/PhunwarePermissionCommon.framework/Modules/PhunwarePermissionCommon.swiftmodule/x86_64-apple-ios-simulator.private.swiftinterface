@@ -39,6 +39,23 @@ extension String {
 extension String {
   public func localized() -> String
 }
+@objc public class SpeechRecognitionPermission : Permission {
+  public static let permissionTypeName: Swift.String
+  public enum PermissionMode {
+    case always
+    public static func == (a: SpeechRecognitionPermission.PermissionMode, b: SpeechRecognitionPermission.PermissionMode) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  final public let mode: PermissionMode
+  public init(mode: PermissionMode)
+  @objc override dynamic public var description: String {
+    @objc get
+  }
+  @objc deinit
+}
 @objc public class BluetoothPermission : Permission {
   public static let permissionTypeName: Swift.String
   public enum PermissionMode {
@@ -199,6 +216,8 @@ public protocol Option : Swift.CaseIterable, Swift.Hashable, Swift.RawRepresenta
   @objc deinit
 }
 extension PhotosPermission.PermissionMode : Swift.Hashable {}
+extension SpeechRecognitionPermission.PermissionMode : Swift.Equatable {}
+extension SpeechRecognitionPermission.PermissionMode : Swift.Hashable {}
 extension BluetoothPermission.PermissionMode : Swift.Equatable {}
 extension BluetoothPermission.PermissionMode : Swift.Hashable {}
 extension LocationPermission.Accuracy : Swift.Equatable {}

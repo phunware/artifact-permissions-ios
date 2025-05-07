@@ -55,6 +55,10 @@ let package = Package(
         .binaryTarget(
             name: "PhunwarePhotosPermission",
             path: "./FrameworksStaticLinks/PhunwarePhotosPermission.xcframework"
+        ),
+        .binaryTarget(
+            name: "PhunwareSpeechRecognitionPermission",
+            path: "./FrameworksStaticLinks/PhunwareSpeechRecognitionPermission.xcframework"
         )
     ]
 )

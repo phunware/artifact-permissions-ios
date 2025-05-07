@@ -6,15 +6,15 @@
 	<dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
 		<data>
-		BGwSpxQUB4lRYs7Ixa1ktsgr1xc=
+		jCN67lQH1JD6bAhxp69qZxNm/bo=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		fJHOt3F7UGhieAp5SDv/hSG3tRg=
+		9mV/Qo/CnlCvNiHNtuEnaJHiOzs=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		lq1iMV9DoU42N0c2pQXM3DR+wm0=
+		HwSkx9yTDzG5xf8XUVtoCz4noA0=
 		</data>
 		<key>Headers/PhunwareCameraPermission.h</key>
 		<data>
@@ -22,7 +22,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		AycmuAfB0vfiPVkqoi6NIpg6tcw=
+		jQVBXeSzfthH7BFJ7b5maYo6DME=
 		</data>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -102,21 +102,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8TfDfpUgHCzcs0h0kJYhCbnXeRAX2RkZ/RTMT2iLrp8=
+			SEIKovVjNJvdTcT26bSxi11aYQfGuC+EEZyyV8IkSoM=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s8HzXgwalGX0CFAQmDRaFIzjV4G8+sL1F8BZ5xOVWxk=
+			p6gAEoRkLSAmi4kLecI0FQY4JP2s4AeZl9BqT4VYYG4=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			iYnNlNv5uoSw7jz8ULUETNjm1ay0HKAkH6pOee/QrBo=
+			3KQunwOPwJiwXEWr9ppcaCZuTJs/+ezOro2WMZBysD4=
 			</data>
 		</dict>
 		<key>Headers/PhunwareCameraPermission.h</key>

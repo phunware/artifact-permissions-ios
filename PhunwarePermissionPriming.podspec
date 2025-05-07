@@ -64,6 +64,11 @@ Pod::Spec.new do |spec|
     subspec.vendored_frameworks = 'Frameworks/PhunwarePhotosPermission.xcframework'
   end
 
+  spec.subspec 'SpeechRecognition' do |subspec|
+    subspec.dependency 'PhunwarePermissionPriming/Core'
+    subspec.vendored_frameworks = 'Frameworks/PhunwareSpeechRecognitionPermission.xcframework'
+  end
+
   spec.subspec 'CoreStaticLinks' do |subspec|
     subspec.dependency 'PhunwareFoundation/CoreStaticLinks', '~> 1.1.0'
     subspec.dependency 'PhunwareTheming','~> 1.1.0'
@@ -79,34 +84,39 @@ Pod::Spec.new do |spec|
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareAppTrackingPermission.xcframework'
   end
   
-  spec.subspec 'Bluetooth' do |subspec|
+  spec.subspec 'BluetoothStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'  
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareBluetoothPermission.xcframework'
   end
   
-  spec.subspec 'Camera' do |subspec|
+  spec.subspec 'CameraStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'  
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareCameraPermission.xcframework'
   end
   
-  spec.subspec 'Location' do |subspec|
+  spec.subspec 'LocationStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'    
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareLocationPermission.xcframework'
   end
   
-  spec.subspec 'Microphone' do |subspec|
+  spec.subspec 'MicrophoneStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'    
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareMicrophonePermission.xcframework'
   end
   
-  spec.subspec 'Notifications' do |subspec|
+  spec.subspec 'NotificationsStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareNotificationsPermission.xcframework'
   end
   
-  spec.subspec 'Photos' do |subspec|
+  spec.subspec 'PhotosStaticLinks' do |subspec|
     subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'
     subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwarePhotosPermission.xcframework'
+  end
+
+  spec.subspec 'SpeechRecognitionStaticLinks' do |subspec|
+    subspec.dependency 'PhunwarePermissionPriming/CoreStaticLinks'
+    subspec.vendored_frameworks = 'FrameworksStaticLinks/PhunwareSpeechRecognitionPermission.xcframework'
   end
 
 end
