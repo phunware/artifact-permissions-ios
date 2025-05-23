@@ -3,15 +3,15 @@
 // swift-module-flags: -target arm64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwarePermissionPriming
 // swift-module-flags-ignorable: -no-verify-emitted-module-interface
 import Combine
-import CoreLocation
 import DeveloperToolsSupport
 import Foundation
+import Foundation/*.Bundle*/
 import PhunwareFoundation
+@_exported import PhunwarePermissionCommon
 @_exported import PhunwarePermissionPriming
 import PhunwareTheming
 import Swift
 import SwiftUI
-import UIKit.UIApplication
 import UIKit
 import UIKit.UIView
 import UIKit.UIViewController
@@ -23,20 +23,6 @@ public struct ImageInfo {
   public let colors: ColorInfo?
   public init(image: UIImage, colors: ColorInfo?)
 }
-public enum LocationPermission {
-  public enum Accuracy {
-    case precise
-    case approximate
-    public static func == (a: PhunwarePermissionPriming.LocationPermission.Accuracy, b: PhunwarePermissionPriming.LocationPermission.Accuracy) -> Swift.Bool
-    public func hash(into hasher: inout Swift.Hasher)
-    public var hashValue: Swift.Int {
-      get
-    }
-  }
-  case always(accuracy: Accuracy)
-  case whenInUse(accuracy: Accuracy)
-  case oneTime(purposeKey: String)
-}
 public struct ColorInfo {
   public let foreground: UIColor?
   public let background: UIColor?
@@ -46,7 +32,7 @@ public struct ColorInfo {
 public enum PermissionPrimingCompletionNavigationAction {
   case unwind
   case none
-  public static func == (a: PhunwarePermissionPriming.PermissionPrimingCompletionNavigationAction, b: PhunwarePermissionPriming.PermissionPrimingCompletionNavigationAction) -> Swift.Bool
+  public static func == (a: PermissionPrimingCompletionNavigationAction, b: PermissionPrimingCompletionNavigationAction) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -90,12 +76,12 @@ public struct OrderedSet<E> : Equatable, Collection where E : Swift.Hashable {
   public mutating func removeAll(keepingCapacity keepCapacity: Bool)
   @discardableResult
   public mutating func remove(_ element: Element) -> Element?
-  public typealias Iterator = Swift.IndexingIterator<PhunwarePermissionPriming.OrderedSet<E>>
-  public typealias SubSequence = Swift.Slice<PhunwarePermissionPriming.OrderedSet<E>>
+  public typealias Iterator = Swift.IndexingIterator<OrderedSet<E>>
+  public typealias SubSequence = Swift.Slice<OrderedSet<E>>
 }
 extension OrderedSet : ExpressibleByArrayLiteral {
   public init(arrayLiteral elements: Element...)
-  public typealias ArrayLiteralElement = PhunwarePermissionPriming.OrderedSet<E>.Element
+  public typealias ArrayLiteralElement = OrderedSet<E>.Element
 }
 extension OrderedSet : RandomAccessCollection {
   public var startIndex: Int {
@@ -114,23 +100,9 @@ extension OrderedSet : Hashable {
     get
   }
 }
-public protocol Option : Swift.CaseIterable, Swift.Hashable, Swift.RawRepresentable {
-}
 public enum Copy {
   case plain(text: String, fontInfo: FontInfo?, colorInfo: ColorInfo?)
   case attributed(text: NSAttributedString)
-}
-public enum Permission {
-  case location(LocationPermission)
-}
-extension Permission : RawRepresentable {
-  public typealias RawValue = String
-  public var rawValue: String {
-    get
-  }
-  public init?(rawValue: String)
-}
-extension Permission : Hashable {
 }
 public struct FullScreenConfiguration {
   public enum Features {
@@ -166,38 +138,13 @@ extension PermissionPrimingCoordinator {
     public init(navigationController: UINavigationController, permissions: OrderedSet<OrderedSet<Permission>>)
   }
 }
-public class PermissionsInspector {
+final public class PermissionManager {
   public init()
   @objc deinit
-}
-extension PermissionsInspector {
-  public struct RequestableResult {
-    public let available: [Permission]?
-    public let fulfilled: [Permission]?
-    public let unfulfilled: [Permission]?
-  }
-  public func requestablePermissions(_ permissions: Set<Permission>, completion: @escaping (RequestableResult) -> Void)
-}
-extension PermissionsInspector {
-  public enum RequestResult {
-    case success(requested: [Permission])
-    case failure(requested: [Permission], fulfilled: [Permission], unfulfilled: [Permission], failed: [Permission])
-  }
-  public func requestPermissions(_ permissions: OrderedSet<Permission>, completion: @escaping (RequestResult) -> Void)
-}
-extension PermissionsInspector {
-  public var locationAuthorizationStatus: CLAuthorizationStatus {
-    get
-  }
-  public var locationAccuracyAuthorization: CLAccuracyAuthorization {
-    get
-  }
 }
 public struct FontInfo {
   public let font: UIFont
   public init(font: UIFont)
 }
-extension PhunwarePermissionPriming.LocationPermission.Accuracy : Swift.Equatable {}
-extension PhunwarePermissionPriming.LocationPermission.Accuracy : Swift.Hashable {}
-extension PhunwarePermissionPriming.PermissionPrimingCompletionNavigationAction : Swift.Equatable {}
-extension PhunwarePermissionPriming.PermissionPrimingCompletionNavigationAction : Swift.Hashable {}
+extension PermissionPrimingCompletionNavigationAction : Swift.Equatable {}
+extension PermissionPrimingCompletionNavigationAction : Swift.Hashable {}
