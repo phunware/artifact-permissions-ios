@@ -314,14 +314,14 @@
     {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwareLocationPermission\/Model\/LocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14085,
+      "offset": 14081,
       "length": 67,
       "value": "\"location_permission_failure_message_pending_authorization_request\""
     },
     {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwareLocationPermission\/Model\/LocationManager.swift",
       "kind": "StringLiteral",
-      "offset": 14227,
+      "offset": 14223,
       "length": 84,
       "value": "\"location_permission_failure_message_declined_to_show_one_time_authorization_prompt\""
     }

@@ -10,12 +10,39 @@
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		9mV/Qo/CnlCvNiHNtuEnaJHiOzs=
+		AeaU8lnTglnwY6yP4GN/ljvsMmo=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		HwSkx9yTDzG5xf8XUVtoCz4noA0=
+		zDkjQ8x8LWI96tT0/kZJPI5elfI=
 		</data>
+		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EYhDmRBu06B8x2jwlLt8VtPk898=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fYcQajlr8j/2h6smK32EVhqaOxE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/PhunwareCameraPermission.h</key>
 		<data>
 		NWbk/iEn2Ptq3q/mVmvthIWLdQw=
@@ -68,33 +95,6 @@
 		<data>
 		M6aHyx7L/AsBsSSfQCiNVBWRxL8=
 		</data>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EYhDmRBu06B8x2jwlLt8VtPk898=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYcQajlr8j/2h6smK32EVhqaOxE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -109,15 +109,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			p6gAEoRkLSAmi4kLecI0FQY4JP2s4AeZl9BqT4VYYG4=
+			JYe79/Um3k8+wHJr+6oTyvoR1MgnZl3RZ+N+fRqeIbI=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3KQunwOPwJiwXEWr9ppcaCZuTJs/+ezOro2WMZBysD4=
+			ahk9ayTNXvmPS2M5HozsfkVR9W6r9598RabaIxq7kCs=
 			</data>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Headers/PhunwareCameraPermission.h</key>
 		<dict>
@@ -202,33 +229,6 @@
 			<data>
 			fndbAa8eAieJfmnaVZ23yClImCnTI6HgCQs+KnYSrz8=
 			</data>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>

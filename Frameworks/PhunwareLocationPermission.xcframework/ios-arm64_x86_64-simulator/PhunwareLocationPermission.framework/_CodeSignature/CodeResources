@@ -10,12 +10,39 @@
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
 		<data>
-		YE2ITX4pmr8k3NMmRAa0DYv9VSs=
+		ziMveeuyIKByoP90flCiluGoRmA=
 		</data>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<data>
-		HwSkx9yTDzG5xf8XUVtoCz4noA0=
+		zDkjQ8x8LWI96tT0/kZJPI5elfI=
 		</data>
+		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EYhDmRBu06B8x2jwlLt8VtPk898=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			fYcQajlr8j/2h6smK32EVhqaOxE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
 		<key>Headers/PhunwareLocationPermission.h</key>
 		<data>
 		k4hus/c51jZ/xr0/NKlUL2I3kHA=
@@ -26,7 +53,7 @@
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		QkFEcEvNXOkQtBizdS33h62anmE=
+		DQLgO5dCB67v4qRYH7gEA1IcJTM=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -46,7 +73,7 @@
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		QkFEcEvNXOkQtBizdS33h62anmE=
+		DQLgO5dCB67v4qRYH7gEA1IcJTM=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -68,33 +95,6 @@
 		<data>
 		jrytmyXYDGcP7vkPXOUSYKExCSg=
 		</data>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EYhDmRBu06B8x2jwlLt8VtPk898=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYcQajlr8j/2h6smK32EVhqaOxE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -109,15 +109,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			v13YIWwC8Q0KLPN98Hv4ShUPpeo3kxz2ruukBG//oDo=
+			NxNPpUX7gUu5y75JQjjt6Wb97N5L/f6JJrRpZz8X5fo=
 			</data>
 		</dict>
 		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			3KQunwOPwJiwXEWr9ppcaCZuTJs/+ezOro2WMZBysD4=
+			ahk9ayTNXvmPS2M5HozsfkVR9W6r9598RabaIxq7kCs=
 			</data>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
+			</data>
+			<key>optional</key>
+			<true/>
 		</dict>
 		<key>Headers/PhunwareLocationPermission.h</key>
 		<dict>
@@ -130,7 +157,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHrVHoCzmaWsVSmcizYlf1g7RR9DeATVstLvX/jCnX4=
+			/NeJirgE3jlQ9cPDPne5z2OZOeJ2UPc4D7Hs6zlMs34=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -165,7 +192,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CHrVHoCzmaWsVSmcizYlf1g7RR9DeATVstLvX/jCnX4=
+			/NeJirgE3jlQ9cPDPne5z2OZOeJ2UPc4D7Hs6zlMs34=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -202,33 +229,6 @@
 			<data>
 			rFQzPWBBFMe9PqUG3vENxNGI95Q/FwCbn9NLYIrw5LI=
 			</data>
-		</dict>
-		<key>en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 	</dict>
 	<key>rules</key>
