@@ -1,0 +1,23 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.2 effective-5.10 (swiftlang-6.0.2.1.2 clang-1600.0.26.4)
+// swift-module-flags: -target arm64-apple-ios15.5 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name PhunwareBluetoothPermission
+import CoreBluetooth.CBManager
+import CoreBluetooth
+import Foundation
+@_exported import PhunwareBluetoothPermission
+@_exported import PhunwarePermissionCommon
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_inheritsConvenienceInitializers @objc final public class BluetoothManager : NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension BluetoothManager : PermissionManaging {
+  @objc final public func requestPermission(_ permission: Permission, completion: @escaping RequestPermissionCompletion)
+  @objc final public func isPermissionRequestable(_ permission: Permission, completion: @escaping PermissionRequestableCompletion)
+}
+extension BluetoothManager : CBCentralManagerDelegate {
+  @objc final public func centralManagerDidUpdateState(_ central: CBCentralManager)
+}

@@ -1,0 +1,300 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareBluetoothPermission",
+    "printedName": "PhunwareBluetoothPermission",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareBluetoothPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth",
+        "printedName": "CoreBluetooth",
+        "declKind": "Import",
+        "moduleName": "PhunwareBluetoothPermission"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BluetoothManager",
+        "printedName": "BluetoothManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BluetoothManager",
+                "printedName": "PhunwareBluetoothPermission.BluetoothManager",
+                "usr": "c:@M@PhunwareBluetoothPermission@objc(cs)BluetoothManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhunwareBluetoothPermission@objc(cs)BluetoothManager(im)init",
+            "mangledName": "$s27PhunwareBluetoothPermission0B7ManagerCACycfc",
+            "moduleName": "PhunwareBluetoothPermission",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.RequestPermissionResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestPermissionResult",
+                    "printedName": "PhunwarePermissionCommon.RequestPermissionResult",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)RequestPermissionResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareBluetoothPermission@objc(cs)BluetoothManager(im)requestPermission:completion:",
+            "mangledName": "$s27PhunwareBluetoothPermission0B7ManagerC07requestC0_10completiony0aC6Common0C0C_yAF07RequestC6ResultCctF",
+            "moduleName": "PhunwareBluetoothPermission",
+            "objc_name": "requestPermission:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionRequestable",
+            "printedName": "isPermissionRequestable(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.PermissionRequestable) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionRequestable",
+                    "printedName": "PhunwarePermissionCommon.PermissionRequestable",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)PermissionRequestable"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareBluetoothPermission@objc(cs)BluetoothManager(im)isPermissionRequestable:completion:",
+            "mangledName": "$s27PhunwareBluetoothPermission0B7ManagerC02isC11Requestable_10completiony0aC6Common0C0C_yAF0cF0CctF",
+            "moduleName": "PhunwareBluetoothPermission",
+            "objc_name": "isPermissionRequestable:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "centralManagerDidUpdateState",
+            "printedName": "centralManagerDidUpdateState(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CBCentralManager",
+                "printedName": "CoreBluetooth.CBCentralManager",
+                "usr": "c:objc(cs)CBCentralManager"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareBluetoothPermission@objc(cs)BluetoothManager(im)centralManagerDidUpdateState:",
+            "mangledName": "$s27PhunwareBluetoothPermission0B7ManagerC07centralD14DidUpdateStateyySo09CBCentralD0CF",
+            "moduleName": "PhunwareBluetoothPermission",
+            "objc_name": "centralManagerDidUpdateState:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhunwareBluetoothPermission@objc(cs)BluetoothManager",
+        "mangledName": "$s27PhunwareBluetoothPermission0B7ManagerC",
+        "moduleName": "PhunwareBluetoothPermission",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PermissionManaging",
+            "printedName": "PermissionManaging",
+            "usr": "c:@M@PhunwarePermissionCommon@objc(pl)PermissionManaging",
+            "mangledName": "$s24PhunwarePermissionCommon0B8ManagingP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "PhunwarePermissionCommon",
+        "printedName": "PhunwarePermissionCommon",
+        "declKind": "Import",
+        "moduleName": "PhunwareBluetoothPermission",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareBluetoothPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreBluetooth.CBManager",
+        "printedName": "CoreBluetooth.CBManager",
+        "declKind": "Import",
+        "moduleName": "PhunwareBluetoothPermission"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
