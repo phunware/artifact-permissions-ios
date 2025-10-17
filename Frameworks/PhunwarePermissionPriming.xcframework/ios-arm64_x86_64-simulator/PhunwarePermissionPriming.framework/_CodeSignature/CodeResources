@@ -28,45 +28,6 @@
 		<data>
 		wQu5CnEz6BCk7uy7XCFwX0/5YRw=
 		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
-		<data>
-		jCN67lQH1JD6bAhxp69qZxNm/bo=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
-		<data>
-		PSrXNlyxigeWfga6ZX8lhjZ4dts=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		zDkjQ8x8LWI96tT0/kZJPI5elfI=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EYhDmRBu06B8x2jwlLt8VtPk898=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYcQajlr8j/2h6smK32EVhqaOxE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>FullScreen.storyboardc/5uE-0z-hTi-view-fyP-KW-85M.nib</key>
 		<data>
 		ySdqOen4KqOOZHyH4SpPiWXeT9g=
@@ -89,7 +50,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		4mfIPLTeW4/VC3lf5PM6UIBmBPE=
+		uAQXcO4bX6z2VWRHO5dvuxT/LfA=
 		</data>
 		<key>Modules/PhunwarePermissionPriming.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -183,54 +144,6 @@
 			<data>
 			kIh1lqEhGl3wZ7g2l1G8R+RnkObuOSRiQem0XLLIJ98=
 			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SEIKovVjNJvdTcT26bSxi11aYQfGuC+EEZyyV8IkSoM=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mG71EaI0jyjYZQtHs3VBGzsN+uBjln4pyeXH5ZNd76c=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ahk9ayTNXvmPS2M5HozsfkVR9W6r9598RabaIxq7kCs=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>FullScreen.storyboardc/5uE-0z-hTi-view-fyP-KW-85M.nib</key>
 		<dict>
