@@ -4,52 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
-		<data>
-		jCN67lQH1JD6bAhxp69qZxNm/bo=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
-		<data>
-		A7OeKJLn0cRjrZbuVk5H0P43eKg=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
-		<data>
-		zDkjQ8x8LWI96tT0/kZJPI5elfI=
-		</data>
-		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			EYhDmRBu06B8x2jwlLt8VtPk898=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fYcQajlr8j/2h6smK32EVhqaOxE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			JZ/MytzqKqvPTsJtNF8u8xvRfdg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/PhunwareAppTrackingPermission.h</key>
 		<data>
 		J22Bzx59nLmMlLXs9Z8Q5sTLycQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		7gkGe34nT3+Djne2tx4etMry4aY=
+		ZbVNBgw7/0CkRKTWQtsLAJVx0Xc=
 		</data>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -98,54 +59,6 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			SEIKovVjNJvdTcT26bSxi11aYQfGuC+EEZyyV8IkSoM=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/PhunwarePermissionCommon</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			Pk7DHUdvZRD9+hO1YseVZo0RP610WuAlpkSTLevzAtI=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			ahk9ayTNXvmPS2M5HozsfkVR9W6r9598RabaIxq7kCs=
-			</data>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			h34XiSVwvIqiIHL34p1KaRIS4y/5By4ppPGMD/S4e8g=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/es.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			4fgEGhpyBjTE78buqOcwHsSkCbwlGyuk0X+3SXCOaNA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/PhunwarePermissionCommon.framework/fr.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			+dwN7/MpfEZJpp1Kwdgd/L++lpNC+XDyGy4wsP2JnI4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/PhunwareAppTrackingPermission.h</key>
 		<dict>
 			<key>hash2</key>

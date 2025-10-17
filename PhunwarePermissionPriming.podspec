@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name              = 'PhunwarePermissionPriming'
-  spec.version           = '1.5.0'
+  spec.version           = '1.5.1'
   spec.summary           = 'A library currently being used by Phunware internally to prime for and request permissions in our own Modules.'
   spec.homepage          = 'https://www.phunware.com'
   spec.license           = { :type => 'Copyright', :text => 'Copyright 2009-present Phunware, Inc. All rights reserved.' }
@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url  = 'https://twitter.com/Phunware'
   spec.platform          = :ios, '15.5'
   spec.source            = { :git => 'https://github.com/phunware/artifact-permissions-ios.git', :tag => spec.version.to_s }
-  spec.cocoapods_version = '>= 1.15.2'
+  spec.cocoapods_version = '>= 1.16.2'
 
   spec.default_subspecs =
     'AppTracking',
