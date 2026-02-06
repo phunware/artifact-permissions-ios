@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		RmjoRwFaNHUavOD0WeQdWkeDWMQ=
+		vy/sKZmeqJUG7jx+Ryzma+LJEr0=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		VRtb8BAzODTpjlL88brdKf5fqXI=
+		6kR8dUcSOEOi0FcZKQ80QkcySNE=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		J9wi76FxWlBSqS9a/I4jL4w49lI=
+		5u3THZyVJPuUUBMJjZ4uhPp8uBw=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		VRtb8BAzODTpjlL88brdKf5fqXI=
+		6kR8dUcSOEOi0FcZKQ80QkcySNE=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		K1C/pTRHDfoNpT2Q4WiiWs5O1Lk=
+		9J0Co1iCwffNf5YokUJTEi8jrDk=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		DOhTD7OiVhv/hohO/7PdtghXMPA=
+		pO103vcqkNFPBMova5w0RH7PdWc=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		dsD7NV+HRcXRPknxC8+8uZNupAI=
+		DIoOGjsPLLEC9M4BthgvMUZrMV8=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		DOhTD7OiVhv/hohO/7PdtghXMPA=
+		pO103vcqkNFPBMova5w0RH7PdWc=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		k3A3Jq2paROzrQM+6uaPljfI7GE=
+		ffT1HONErAyntV7O8z92jNqt7Xk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			D0UUcA6893qsRrICb6rxSnCJrrhApofe756OPdqAFk0=
+			9WFHRK7t+/ThduUk5O0UWX7MgKllOzHlx6L+c04rwOM=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			n59DSSFfN1JPE0EtUhU/O6HpWR0NeGIjgM7ZPWLsXzo=
+			S+VuiNSEEOb9fmlUldIpWayQwCcx4pdjYtDx34tVlzY=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D0UUcA6893qsRrICb6rxSnCJrrhApofe756OPdqAFk0=
+			9WFHRK7t+/ThduUk5O0UWX7MgKllOzHlx6L+c04rwOM=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wtsAfSaUi+iytVIYbIVHthXvXBoGfbh8pxGHDNDqnYQ=
+			T2rxX6FZiKFvtclebuedYtcJ4s2Z63FDNRkM7rzmYao=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CVuf+qo9k2Dm2LCU+R7J1XmyQDj9D/s97nBWC/qCb6Y=
+			0MO1WBUAjoaNoyHwp2gvMMEl6Uq43lYDOuo3yz4wMWA=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			bn2XHRTXKUS8/bXc5fYCT4UaT0HFJs1qYTmLNCqBH8A=
+			W2IMujR06hsrv/T1yMR6qPLuroronOLdN+yUtDXVCIM=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CVuf+qo9k2Dm2LCU+R7J1XmyQDj9D/s97nBWC/qCb6Y=
+			0MO1WBUAjoaNoyHwp2gvMMEl6Uq43lYDOuo3yz4wMWA=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			9s3WxfTHzaCIZR1U67QC30ezkd+eVS0FvXjU3ztnqNE=
+			QK7hbTsV4vNKiBrL2uRs7qYQLoucRrSc1pEnK23hVjc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

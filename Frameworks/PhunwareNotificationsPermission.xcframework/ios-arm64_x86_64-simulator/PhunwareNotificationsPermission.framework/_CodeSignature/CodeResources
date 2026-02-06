@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		lKkynr5kiE0RIbM4WAOvcjhiQ8c=
+		HfnpSYkj1Rq2nMcupfiUeclo9Oc=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		yBHC/PWYRQUo0w/a1TuxsulwB3M=
+		wYmHrx17UuIpum+eHQjQACug8pI=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		VJPz6TRx18vyK4oKqDUKHT+/mv8=
+		zdJDEM8DGg98XJ5uFbuyBSTb2MA=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		yBHC/PWYRQUo0w/a1TuxsulwB3M=
+		wYmHrx17UuIpum+eHQjQACug8pI=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		drcwUFLCVZI84lVb8+oNbjD7ZTQ=
+		r0ORrouRoQ1TjTrcNgMues+d5Ks=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		nos2A1qcnwidKEPTrksRnna/m0I=
+		4rEuyKlzvdnS382uizCEtE9bOF4=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		JDBdAkgfS85zWuurBP+PVrB4ZVc=
+		onQ76DqiwM5D6Mue8Il7EP5mSlg=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		nos2A1qcnwidKEPTrksRnna/m0I=
+		4rEuyKlzvdnS382uizCEtE9bOF4=
 		</data>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		sJZ9w86+ytzxc3v3oTdLRHZRe7c=
+		COzMdvlVoLuf8OIbMUE4sIEgGP8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			eAeAAcuNCzcR8Bplb+NydabhAndLt94+IxIh5qz1h8E=
+			hHiZfYx7ONV2dVF9rqQzIUwup5/5+lR/+3jTf0D+tZA=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			7hxHm7QelRJgf8J6QRgWntTaI3glfo3HMQRriyVpfZA=
+			FCGjzRnVKFv4Vy2uXxkwcZsviWgeGAiatv5pzvK8tk0=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			eAeAAcuNCzcR8Bplb+NydabhAndLt94+IxIh5qz1h8E=
+			hHiZfYx7ONV2dVF9rqQzIUwup5/5+lR/+3jTf0D+tZA=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UI3b5PvPSOjtpADj12P/tIP7nhyfFEvlS2I7SM/10gQ=
+			xvReYg6gPWtwTdHxXbuRxqCTd55G0KDlUl9cCru2ZM0=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			WrS+10Ri1rUo0IeYtDzTX98WILY4hJ/tWzlaTVJ4kuE=
+			2LQ86NYpaesgbXmQ2f87nAQ2YzWX0sA0xZ6udBPmp9I=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			s/LDaLftHN3iZA5LTAHo8VkNj005Y29oAuoSE/x5Sn8=
+			/4JeyOPrrdXRvjtCa9JJGz3DRIfjQJDrj4E0JntYiJ4=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			WrS+10Ri1rUo0IeYtDzTX98WILY4hJ/tWzlaTVJ4kuE=
+			2LQ86NYpaesgbXmQ2f87nAQ2YzWX0sA0xZ6udBPmp9I=
 			</data>
 		</dict>
 		<key>Modules/PhunwareNotificationsPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			CiV0OI+OMTY3coQ9AIWvBDvy+PDi74WtwxHS7XWw1MM=
+			zF72f/fRFkIz88KfpSiyAdSptKAV9gz8hDz8gA8nYc4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

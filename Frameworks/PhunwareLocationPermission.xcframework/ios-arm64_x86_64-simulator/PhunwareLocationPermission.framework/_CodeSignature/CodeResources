@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		I4v47Q7vos7rNuHUXT/J3/Zaxx8=
+		lobrEML2dDMprvnI2/IlRiFwoic=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		bq6v7gx7ADGkMP6Y5724FtMrFHQ=
+		nTMuZAUtMtDLzt6gbjVmKK7RtDA=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		R4KgI3BB5Q1/dNqa/DOfqbgJsz0=
+		NVNgOzA/I7NplTZAJ3SrJPwM/YU=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		bq6v7gx7ADGkMP6Y5724FtMrFHQ=
+		nTMuZAUtMtDLzt6gbjVmKK7RtDA=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		3k6mO8y7C0oiWUf8z9bBzrJKAV8=
+		K5Pu0AQw0nFkyz6CBIt9jvu1wPo=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		Dru6sK+W7wQV9tP+WVe8S9ySRk4=
+		p1u8ByI5MpkbPJpQ8ValpC0qzDc=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		LpIWOz/Nm63QHFuowJXx6xitPlQ=
+		mARhvqVwCibYds+82IY+jg5w6T0=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		Dru6sK+W7wQV9tP+WVe8S9ySRk4=
+		p1u8ByI5MpkbPJpQ8ValpC0qzDc=
 		</data>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		46joGBNYdxRN2h3Ej0kcU/oue5Y=
+		XDzo90onucDEcY8eWhgzzDZzAYU=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wjts4sl4IUK6NQReoZmvr6vxq3CXafylXWRZJhb8qyc=
+			61kksDhk91Sol+b2d9AVu8V9YhgxmRs/k2fxRE290dw=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			R/Sfq0YW3ARsUgNJd2oFOkMwDLbE1pEyb0WOgKEhAZY=
+			o2CfvRrJ5QU6Fg12aUoimqhB2M7R825WkQFOGBWs/gc=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Wjts4sl4IUK6NQReoZmvr6vxq3CXafylXWRZJhb8qyc=
+			61kksDhk91Sol+b2d9AVu8V9YhgxmRs/k2fxRE290dw=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KyV3w8bdp7l9Kw9KdI+laIYQo55gWDy7wJZDx5Y8npg=
+			Akgl0JGmciYcyfGZ0Ako/2GQLnqR1YBCimrou8op57o=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUGCEseb1yni8VeC7D3pqONmqOQJyN5K4gWvw2F3Aio=
+			vIe2kBFgOnngbsjtK/EFBJdWueZAherQZY0H2y0Ah5U=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			HzeBG8WKFpbX5Z81QHSgSqr12T2ULdgHw/r4+pDJMns=
+			f1VJC/wJEC2L0d5XUskzdHbkXK3bIj0H5sblRvqALvk=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			MUGCEseb1yni8VeC7D3pqONmqOQJyN5K4gWvw2F3Aio=
+			vIe2kBFgOnngbsjtK/EFBJdWueZAherQZY0H2y0Ah5U=
 			</data>
 		</dict>
 		<key>Modules/PhunwareLocationPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v6BZQUfHrktOrvyZCQzHgtkUCgOA7UhQoD7Zuq11JDk=
+			03DM5UPk9ZNdHXNoPmLpW0GbPomSw5ybbG6IUVJ/SL4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

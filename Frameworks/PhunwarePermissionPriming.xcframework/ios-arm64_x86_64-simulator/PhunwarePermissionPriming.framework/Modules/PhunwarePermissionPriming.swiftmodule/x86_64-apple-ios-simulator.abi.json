@@ -5212,6 +5212,13 @@
       "value": "0.2"
     },
     {
+      "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/DisplayTemplate\/BottomSheet\/View\/BottomSheetViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 8096,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
       "filePath": "\/Users\/jenkins\/slave_data\/workspace\/artifact-permissions-external-ios\/PhunwarePermissionPriming\/Permission\/Model\/PermissionManager.swift",
       "kind": "Dictionary",
       "offset": 295,

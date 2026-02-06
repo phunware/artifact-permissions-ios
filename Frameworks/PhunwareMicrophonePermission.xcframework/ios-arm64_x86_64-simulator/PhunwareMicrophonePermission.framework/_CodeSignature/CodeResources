@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		IJeGWpTRxz6SgpvDfnaK5f0JbNk=
+		C88hoBv+pPSztTwpfo9A1ybtfgs=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -18,19 +18,19 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		J8uJkQokTW2B9zCfCrVW/BdiMjo=
+		0GiCsHlhk3SjXGL/ijatrkAioZw=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		YYPWN1gsXqQE7Gd8YNbpIFuRkrA=
+		8POaNldNfVc4YN6SLu8gPbqBIO4=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		J8uJkQokTW2B9zCfCrVW/BdiMjo=
+		0GiCsHlhk3SjXGL/ijatrkAioZw=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ZQaCxOgWgqx8Y9rpXMowS6Vj5og=
+		x8g/l5QtY6ml+3qQhxZJX67+JQw=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -38,19 +38,19 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		2F8hg24s+XGbOS4Mvarul7yusaA=
+		TUt2P+r7d8orqbqSBVj/0dapkns=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		nXgP340A/g8kEAUjuFbcsvQuYPY=
+		OlgCBX+Uc1ssAdiC2N8gIoPoJe8=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		2F8hg24s+XGbOS4Mvarul7yusaA=
+		TUt2P+r7d8orqbqSBVj/0dapkns=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9XQ90cQ3kXLHazCQFJkVIMbaCfc=
+		vWdJJkkj9uydP97fT7lePyprhAE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -77,28 +77,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cam2rZXldEtEK+VaiGEy3VjPhMrH3oDrByZ0mxD7Ju8=
+			qzEFqBlUDKijo5bBBgO6b0QSr0IooO25sRLeePz84CM=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RNs5jHUkpjOyUAeOT/cT64Ty/mDL3Ie37rr7Lni+q2s=
+			xMIBfmNyPW3NQZLCQ4PYD/4yQ1+ScKO9DZmqKF/hT0w=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Cam2rZXldEtEK+VaiGEy3VjPhMrH3oDrByZ0mxD7Ju8=
+			qzEFqBlUDKijo5bBBgO6b0QSr0IooO25sRLeePz84CM=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jIYfoK+xRCPdIc1z/RbkmeELoyH8jc5qyH0z4uXc6yA=
+			ISw1yse+/xy34oaluThVIFqLR5YvJ9f3DnWXTqA0kOI=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -112,28 +112,28 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oeIh+psqRv3drJwESGCGfqzJeutGGELCp87/0Vay5jw=
+			pbtaBcnmYWWxusSEo6kQdHfO6t7GJq71uIDff0S/xno=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w6UfZzJRAz4cESMmQSh1WA8VLhUPB/0ihVW6C/Szm34=
+			0h2z0bIovcFx4dxuu5YYK+alRwxspBoNMEl1+5a1TUg=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oeIh+psqRv3drJwESGCGfqzJeutGGELCp87/0Vay5jw=
+			pbtaBcnmYWWxusSEo6kQdHfO6t7GJq71uIDff0S/xno=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			e/iQJ8Dr+jjpkRFdZiiP2u6/dg7M7j1Jqc5nSwaVlsE=
+			rcgTsHYEO8Kzc9dyy1oFv1udMUmZgZ/6+MvII+0aeqo=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
