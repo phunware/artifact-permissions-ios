@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name              = 'PhunwarePermissionPriming'
-  spec.version           = '1.5.2'
+  spec.version           = '1.5.3'
   spec.summary           = 'A library currently being used by Phunware internally to prime for and request permissions in our own Modules.'
   spec.homepage          = 'https://www.phunware.com'
   spec.license           = { :type => 'Copyright', :text => 'Copyright 2009-present Phunware, Inc. All rights reserved.' }

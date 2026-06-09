@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		oeIUpDIrmbh1rkJpORy5mMX1wcc=
+		5l1lf6D8i3J7dh5rdkJuCTC2Gqo=
 		</data>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		/pdecUHcAhsAE8ruoElenMYsJU8=
+		KQ/DNXSa7yAWx6H2dkqPpkRBHo0=
 		</data>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		31BqjrSkdptW5KAGBUS0dTOuPJg=
+		25kstQB+GKkzVIjanyg0St/X4qY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TDJ9gAytyrJ15mdRN25kM+Vdgo8YyZIiOuOS8VF2jMQ=
+			mL0h+GPoA8KWeXWTKn6Ffj3ELvV9EQVVCxzUaQMWtww=
 			</data>
 		</dict>
 		<key>Modules/PhunwareCameraPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			OK4s28kuzhDU6egSK68II7ZJCqyx0v1ICtLMFzef1vw=
+			IExpcF4VOBxz8rnGhSK2Xm+tAlNUsmCDLK1KqFm2tek=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

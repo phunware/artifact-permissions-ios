@@ -20,45 +20,45 @@ let package = Package(
         // Internal frameworks
         .binaryTarget(
             name: "PhunwarePermissionCommon",
-            path: "./FrameworksStaticLinks/PhunwarePermissionCommon.xcframework"
+            path: "./Frameworks/PhunwarePermissionCommon.xcframework"
         ),
         .binaryTarget(
             name: "PhunwarePermissionPriming",
-            path: "./FrameworksStaticLinks/PhunwarePermissionPriming.xcframework"
+            path: "./Frameworks/PhunwarePermissionPriming.xcframework"
         ),
 
         // Public-facing frameworks
         .binaryTarget(
             name: "PhunwareAppTrackingPermission",
-            path: "./FrameworksStaticLinks/PhunwareAppTrackingPermission.xcframework"
+            path: "./Frameworks/PhunwareAppTrackingPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareBluetoothPermission",
-            path: "./FrameworksStaticLinks/PhunwareBluetoothPermission.xcframework"
+            path: "./Frameworks/PhunwareBluetoothPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareCameraPermission",
-            path: "./FrameworksStaticLinks/PhunwareCameraPermission.xcframework"
+            path: "./Frameworks/PhunwareCameraPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareLocationPermission",
-            path: "./FrameworksStaticLinks/PhunwareLocationPermission.xcframework"
+            path: "./Frameworks/PhunwareLocationPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareMicrophonePermission",
-            path: "./FrameworksStaticLinks/PhunwareMicrophonePermission.xcframework"
+            path: "./Frameworks/PhunwareMicrophonePermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareNotificationsPermission",
-            path: "./FrameworksStaticLinks/PhunwareNotificationsPermission.xcframework"
+            path: "./Frameworks/PhunwareNotificationsPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwarePhotosPermission",
-            path: "./FrameworksStaticLinks/PhunwarePhotosPermission.xcframework"
+            path: "./Frameworks/PhunwarePhotosPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareSpeechRecognitionPermission",
-            path: "./FrameworksStaticLinks/PhunwareSpeechRecognitionPermission.xcframework"
+            path: "./Frameworks/PhunwareSpeechRecognitionPermission.xcframework"
         )
     ]
 )

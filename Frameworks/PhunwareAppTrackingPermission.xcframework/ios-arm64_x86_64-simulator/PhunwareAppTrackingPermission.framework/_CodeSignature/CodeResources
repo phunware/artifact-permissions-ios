@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		MZhQRUN1PnoM1lAcvoPK/xk7p70=
+		NroQXbJkR5TINovz7KjBsMvZXBY=
 		</data>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		Zt/nJI/gjG83LgdEOQC26qpDI+4=
+		GaBHurLiIphXk9lGSWT00kTN9KU=
 		</data>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ya4obmJOiNZRn7RD6dPvi6Hddfw=
+		JlhyPMCZmROI28S3aJcmTcm/pJw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1+grWr0sg2p8mJQKFZ8bp08QIIJ/y7FMZ/exXhzPccw=
+			tho+7/k+OYRNm4FxoRcPBDdrFBq0xgzYN1by7c8UaRI=
 			</data>
 		</dict>
 		<key>Modules/PhunwareAppTrackingPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			cQYbvMods9wHTYh75q+/s5WAAezX5rRIQ+tGqSmexUs=
+			eyhz3iIUCy2aE80rmx/mY5dRW9rBwkNXQSNHMaIW1x8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

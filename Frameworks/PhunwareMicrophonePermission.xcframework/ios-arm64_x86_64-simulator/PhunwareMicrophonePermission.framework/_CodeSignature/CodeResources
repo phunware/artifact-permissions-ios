@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		C88hoBv+pPSztTwpfo9A1ybtfgs=
+		WeU/10mYmRjPyU7on/qllTua91U=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		x8g/l5QtY6ml+3qQhxZJX67+JQw=
+		IFUEIiTM57fKenHulxaB5Fipyp4=
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		vWdJJkkj9uydP97fT7lePyprhAE=
+		4a1Md2yNewjT3lmEF93VU1jgwm0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ISw1yse+/xy34oaluThVIFqLR5YvJ9f3DnWXTqA0kOI=
+			amSLSYvfv/b/5skNLxuMPkkxCaTgdYosJHavn3DWM5s=
 			</data>
 		</dict>
 		<key>Modules/PhunwareMicrophonePermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rcgTsHYEO8Kzc9dyy1oFv1udMUmZgZ/6+MvII+0aeqo=
+			DRgnVtLfchGnYJwxaDQO8bkIPkHFl8SxQAaUR9ufh/4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

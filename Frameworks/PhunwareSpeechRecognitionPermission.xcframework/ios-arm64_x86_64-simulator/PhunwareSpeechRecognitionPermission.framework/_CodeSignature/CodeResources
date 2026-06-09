@@ -10,7 +10,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vy/sKZmeqJUG7jx+Ryzma+LJEr0=
+		G3uzduTFYytpI9ULrVhGW4LgTB8=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9J0Co1iCwffNf5YokUJTEi8jrDk=
+		xT1Qp28+CGpqWSNnmWEXMs3yoNM=
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		ffT1HONErAyntV7O8z92jNqt7Xk=
+		NVmExf9wp+bUjrqsL+cJPai1Wxk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			T2rxX6FZiKFvtclebuedYtcJ4s2Z63FDNRkM7rzmYao=
+			E2T1gRn+chspxKvC5ZjgpFTwLGr4Fj7vQ0CSdJKZVSw=
 			</data>
 		</dict>
 		<key>Modules/PhunwareSpeechRecognitionPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			QK7hbTsV4vNKiBrL2uRs7qYQLoucRrSc1pEnK23hVjc=
+			Z2vjhhqoutAM6fFMJZSUEuiiBMcJChVkXQClkXCOSew=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
