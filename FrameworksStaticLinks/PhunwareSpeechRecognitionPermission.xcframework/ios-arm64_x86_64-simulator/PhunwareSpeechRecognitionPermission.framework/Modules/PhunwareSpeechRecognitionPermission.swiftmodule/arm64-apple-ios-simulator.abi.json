@@ -1,0 +1,270 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "PhunwareSpeechRecognitionPermission",
+    "printedName": "PhunwareSpeechRecognitionPermission",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareSpeechRecognitionPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "PhunwareSpeechRecognitionPermission"
+      },
+      {
+        "kind": "Import",
+        "name": "PhunwarePermissionCommon",
+        "printedName": "PhunwarePermissionCommon",
+        "declKind": "Import",
+        "moduleName": "PhunwareSpeechRecognitionPermission",
+        "declAttributes": [
+          "Exported"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "PhunwareSpeechRecognitionPermission",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Speech",
+        "printedName": "Speech",
+        "declKind": "Import",
+        "moduleName": "PhunwareSpeechRecognitionPermission"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SpeechRecognitionManager",
+        "printedName": "SpeechRecognitionManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "SpeechRecognitionManager",
+                "printedName": "PhunwareSpeechRecognitionPermission.SpeechRecognitionManager",
+                "usr": "c:@M@PhunwareSpeechRecognitionPermission@objc(cs)SpeechRecognitionManager"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@PhunwareSpeechRecognitionPermission@objc(cs)SpeechRecognitionManager(im)init",
+            "mangledName": "$s35PhunwareSpeechRecognitionPermission0bC7ManagerCACycfc",
+            "moduleName": "PhunwareSpeechRecognitionPermission",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.RequestPermissionResult) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "RequestPermissionResult",
+                    "printedName": "PhunwarePermissionCommon.RequestPermissionResult",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)RequestPermissionResult"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareSpeechRecognitionPermission@objc(cs)SpeechRecognitionManager(im)requestPermission:completion:",
+            "mangledName": "$s35PhunwareSpeechRecognitionPermission0bC7ManagerC07requestD0_10completiony0aD6Common0D0C_yAF07RequestD6ResultCctF",
+            "moduleName": "PhunwareSpeechRecognitionPermission",
+            "objc_name": "requestPermission:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isPermissionRequestable",
+            "printedName": "isPermissionRequestable(_:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Permission",
+                "printedName": "PhunwarePermissionCommon.Permission",
+                "usr": "c:@M@PhunwarePermissionCommon@objc(cs)Permission"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(PhunwarePermissionCommon.PermissionRequestable) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PermissionRequestable",
+                    "printedName": "PhunwarePermissionCommon.PermissionRequestable",
+                    "usr": "c:@M@PhunwarePermissionCommon@objc(cs)PermissionRequestable"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@PhunwareSpeechRecognitionPermission@objc(cs)SpeechRecognitionManager(im)isPermissionRequestable:completion:",
+            "mangledName": "$s35PhunwareSpeechRecognitionPermission0bC7ManagerC02isD11Requestable_10completiony0aD6Common0D0C_yAF0dG0CctF",
+            "moduleName": "PhunwareSpeechRecognitionPermission",
+            "objc_name": "isPermissionRequestable:completion:",
+            "declAttributes": [
+              "Final",
+              "ObjC",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@PhunwareSpeechRecognitionPermission@objc(cs)SpeechRecognitionManager",
+        "mangledName": "$s35PhunwareSpeechRecognitionPermission0bC7ManagerC",
+        "moduleName": "PhunwareSpeechRecognitionPermission",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "PermissionManaging",
+            "printedName": "PermissionManaging",
+            "usr": "c:@M@PhunwarePermissionCommon@objc(pl)PermissionManaging",
+            "mangledName": "$s24PhunwarePermissionCommon0B8ManagingP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}

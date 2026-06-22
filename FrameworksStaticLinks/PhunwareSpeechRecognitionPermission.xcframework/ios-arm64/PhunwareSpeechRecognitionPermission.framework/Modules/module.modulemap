@@ -1,0 +1,6 @@
+framework module PhunwareSpeechRecognitionPermission {
+  umbrella header "PhunwareSpeechRecognitionPermission.h"
+  export *
+
+  module * { export * }
+}

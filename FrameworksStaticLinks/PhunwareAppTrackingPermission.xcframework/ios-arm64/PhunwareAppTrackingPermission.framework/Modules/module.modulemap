@@ -1,0 +1,6 @@
+framework module PhunwareAppTrackingPermission {
+  umbrella header "PhunwareAppTrackingPermission.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module PhunwareBluetoothPermission {
+  umbrella header "PhunwareBluetoothPermission.h"
+  export *
+
+  module * { export * }
+}

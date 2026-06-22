@@ -1,0 +1,150 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios15.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name PhunwarePermissionPriming
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Combine
+import DeveloperToolsSupport
+import Foundation
+import Foundation/*.Bundle*/
+import PhunwareFoundation
+@_exported import PhunwarePermissionCommon
+@_exported import PhunwarePermissionPriming
+import PhunwareTheming
+import Swift
+import SwiftUI
+import UIKit
+import UIKit.UIView
+import UIKit.UIViewController
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct ImageInfo {
+  public let image: UIImage
+  public let colors: ColorInfo?
+  public init(image: UIImage, colors: ColorInfo?)
+}
+public struct ColorInfo {
+  public let foreground: UIColor?
+  public let background: UIColor?
+  public let tint: UIColor?
+  public init(foreground: UIColor?, background: UIColor?, tint: UIColor?)
+}
+public enum PermissionPrimingCompletionNavigationAction {
+  case unwind
+  case none
+  public static func == (a: PermissionPrimingCompletionNavigationAction, b: PermissionPrimingCompletionNavigationAction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum DisplayTemplate {
+  case fullScreen(configuration: FullScreenConfiguration)
+  case bottomSheet(configuration: BottomSheetConfiguration)
+}
+public struct BottomSheetConfiguration {
+  public let colorInfo: ColorInfo?
+  public let imageInfo: ImageInfo?
+  public let title: Copy?
+  public let description: Copy?
+  public let okButton: Copy?
+  public let cancelButton: Copy?
+  public init(colorInfo: ColorInfo?, imageInfo: ImageInfo?, title: Copy?, description: Copy?, okButton: Copy?, cancelButton: Copy?)
+  public init(colorPalette: ColorPalette, textStyles: TextStyles, image: UIImage? = nil, title: String? = nil, description: String? = nil, okButtonTitle: String? = nil, cancelButtonTitle: String? = nil)
+}
+public func == <T>(lhs: OrderedSet<T>, rhs: OrderedSet<T>) -> Bool where T : Swift.Hashable
+public struct OrderedSet<E> : Equatable, Collection where E : Swift.Hashable {
+  public typealias Element = E
+  public typealias Index = Int
+  public typealias Indices = Range<Int>
+  public init()
+  public init(_ array: [Element])
+  public var count: Int {
+    get
+  }
+  public var isEmpty: Bool {
+    get
+  }
+  public var contents: [Element] {
+    get
+  }
+  public func contains(_ member: Element) -> Bool
+  @discardableResult
+  public mutating func append(_ newElement: Element) -> Bool
+  public mutating func removeFirst() -> Element?
+  public mutating func removeLast() -> Element?
+  public mutating func removeAll(keepingCapacity keepCapacity: Bool)
+  @discardableResult
+  public mutating func remove(_ element: Element) -> Element?
+  public typealias Iterator = Swift.IndexingIterator<OrderedSet<E>>
+  public typealias SubSequence = Swift.Slice<OrderedSet<E>>
+}
+extension OrderedSet : ExpressibleByArrayLiteral {
+  public init(arrayLiteral elements: Element...)
+  public typealias ArrayLiteralElement = OrderedSet<E>.Element
+}
+extension OrderedSet : RandomAccessCollection {
+  public var startIndex: Int {
+    get
+  }
+  public var endIndex: Int {
+    get
+  }
+  public subscript(index: Int) -> Element {
+    get
+  }
+}
+extension OrderedSet : Hashable {
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum Copy {
+  case plain(text: String, fontInfo: FontInfo?, colorInfo: ColorInfo?)
+  case attributed(text: NSAttributedString)
+}
+public struct FullScreenConfiguration {
+  public enum Features {
+    case bulletedList(introduction: Copy, names: [String], namesFontInfo: FontInfo?, namesColorInfo: ColorInfo?)
+  }
+  public let colorInfo: ColorInfo?
+  public let imageInfo: ImageInfo?
+  public let title: Copy?
+  public let features: Features?
+  public let nextStep: Copy?
+  public let additionalInfo: Copy?
+  public let okButton: Copy?
+  public let cancelButton: Copy?
+  public init(colorInfo: ColorInfo?, imageInfo: ImageInfo?, title: Copy?, features: Features?, nextStep: Copy?, additionalInfo: Copy?, okButton: Copy?, cancelButton: Copy?)
+  public init(colorPalette: ColorPalette, textStyles: TextStyles, image: UIImage? = nil, title: String? = nil, features: (introduction: String, names: [String])? = nil, nextStep: String? = nil, additionalInfo: String? = nil, okButtonTitle: String? = nil, cancelButtonTitle: String? = nil)
+}
+public protocol PermissionPrimingCoordinatorDelegate : AnyObject {
+  func coordinator(_ coordinator: PermissionPrimingCoordinator, didCompleteWithPrimedPermissions primedPermissions: Set<Permission>?, fulfilledPermissions: Set<Permission>?, unfulfilledPermissions: Set<Permission>?, failedPermissions: Set<Permission>?) -> PermissionPrimingCompletionNavigationAction
+  func displayTemplate(for coordinator: PermissionPrimingCoordinator, permissions: OrderedSet<Permission>) -> DisplayTemplate
+}
+@_hasMissingDesignatedInitializers public class PermissionPrimingCoordinator : Coordinator {
+  public var childCoordinators: [any PhunwareFoundation.Coordinator]
+  public var navigationController: UINavigationController
+  weak public var delegate: PermissionPrimingCoordinatorDelegate?
+  public init(request: Request)
+  public func start()
+  @objc deinit
+}
+extension PermissionPrimingCoordinator {
+  public struct Request {
+    public let navigationController: UINavigationController
+    public let permissions: OrderedSet<OrderedSet<Permission>>
+    public init(navigationController: UINavigationController, permissions: OrderedSet<OrderedSet<Permission>>)
+  }
+}
+final public class PermissionManager {
+  public init()
+  @objc deinit
+}
+public struct FontInfo {
+  public let font: UIFont
+  public init(font: UIFont)
+}
+extension PermissionPrimingCompletionNavigationAction : Swift.Equatable {}
+extension PermissionPrimingCompletionNavigationAction : Swift.Hashable {}
