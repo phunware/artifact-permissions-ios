@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		B8hoX/V89OGFFYnVxDz3or6oGeM=
+		YYu3blJT6BSV5f/m5MtpL2Y22eQ=
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		9WNH+NpQXBNaS5TOYA7Oe8EixIY=
+		FohtzX0yW+/TnfTjKKlqwueikak=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			meAh6N0WoGGYUEfqpwBi+L8C1sIu1FuIS7kZa9eUapA=
+			y/mZQnqUhMv3caYuqXBkwSjVJYUYrlhmI1H+2aei3oI=
 			</data>
 		</dict>
 		<key>Modules/PhunwareBluetoothPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			oj42SZ7lavxem1EGwy69m5jpzSZgr9Kf4o+KENQjDxI=
+			s2kk9f7BDafSW7LqMmve6osAe1sDdJZ4PnSOcxqbPyE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

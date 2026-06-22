@@ -30,7 +30,7 @@
 		</data>
 		<key>Modules/PhunwarePhotosPermission.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		QQhEEZnKwf92g0JNby0BZaHWlVI=
+		+VAfG2vyDpGXwvonWvewkDdyoy4=
 		</data>
 		<key>Modules/PhunwarePhotosPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
@@ -50,7 +50,7 @@
 		</data>
 		<key>Modules/PhunwarePhotosPermission.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		XMP+CYLM+/DN/xONybcovfY+rBk=
+		6i9qfL+4k+IOYwLtu2Gv7/8cu3s=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -98,7 +98,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TLEGGlu3vvSG/0xIu0kc4idMN8y3EJMeWDye5nk8M2o=
+			68P1xwMlbriQELqC9T/YjCEM9wR6Q1oeo1Jekelm4jc=
 			</data>
 		</dict>
 		<key>Modules/PhunwarePhotosPermission.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
@@ -133,7 +133,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rmN464TUoF2X4SevMRcpg08WNptWERwdK3s16TqQaCo=
+			TYJUiYK7McTWuiCyu9UL9ocP7fiGDxhY7xvhVY/SIfs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
