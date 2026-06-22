@@ -9,14 +9,14 @@ let package = Package(
     products: [
         // Only expose these to clients
         .library(name: "PhunwarePermissionPriming", targets: ["PhunwarePermissionPriming", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareAppTrackingPermission", targets: ["PhunwareAppTrackingPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareBluetoothPermission", targets: ["PhunwareBluetoothPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareCameraPermission", targets: ["PhunwareCameraPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareLocationPermission", targets: ["PhunwareLocationPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareMicrophonePermission", targets: ["PhunwareMicrophonePermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareNotificationsPermis:sion", targets: ["PhunwareNotificationsPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwarePhotosPermission", targets: ["PhunwarePhotosPermission", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareSpeechRecognitionPermission", targets: ["PhunwareSpeechRecognitionPermission", "PhunwarePermissionCommon"]),
+        .library(name: "PhunwareAppTrackingPermission", targets: ["PhunwareAppTrackingPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareBluetoothPermission", targets: ["PhunwareBluetoothPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareCameraPermission", targets: ["PhunwareCameraPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareLocationPermission", targets: ["PhunwareLocationPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareMicrophonePermission", targets: ["PhunwareMicrophonePermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareNotificationsPermis:sion", targets: ["PhunwareNotificationsPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwarePhotosPermission", targets: ["PhunwarePhotosPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareSpeechRecognitionPermission", targets: ["PhunwareSpeechRecognitionPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
     ],
     targets: [
         // Internal frameworks
