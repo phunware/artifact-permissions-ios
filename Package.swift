@@ -8,6 +8,7 @@ let package = Package(
     ],
     products: [
         // Only expose these to clients
+        .library(name: "PhunwarePermissionPriming", targets: ["PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
         .library(name: "PhunwareAppTrackingPermission", targets: ["PhunwareAppTrackingPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
         .library(name: "PhunwareBluetoothPermission", targets: ["PhunwareBluetoothPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
         .library(name: "PhunwareCameraPermission", targets: ["PhunwareCameraPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
