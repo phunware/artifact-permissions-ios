@@ -8,59 +8,70 @@ let package = Package(
     ],
     products: [
         // Only expose these to clients
-        .library(name: "PhunwarePermissionPriming", targets: ["PhunwarePermissionPriming", "PhunwarePermissionCommon"]),
-        .library(name: "PhunwareAppTrackingPermission", targets: ["PhunwareAppTrackingPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareBluetoothPermission", targets: ["PhunwareBluetoothPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareCameraPermission", targets: ["PhunwareCameraPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareLocationPermission", targets: ["PhunwareLocationPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareMicrophonePermission", targets: ["PhunwareMicrophonePermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareNotificationsPermis:sion", targets: ["PhunwareNotificationsPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwarePhotosPermission", targets: ["PhunwarePhotosPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
-        .library(name: "PhunwareSpeechRecognitionPermission", targets: ["PhunwareSpeechRecognitionPermission", "PhunwarePermissionCommon", "PhunwarePermissionPriming"]),
+        .library(name: "PhunwareAppTrackingPermission", targets: ["PhunwareAppTrackingPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareBluetoothPermission", targets: ["PhunwareBluetoothPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareCameraPermission", targets: ["PhunwareCameraPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareLocationPermission", targets: ["PhunwareLocationPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareMicrophonePermission", targets: ["PhunwareMicrophonePermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareNotificationsPermission", targets: ["PhunwareNotificationsPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwarePhotosPermission", targets: ["PhunwarePhotosPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+        .library(name: "PhunwareSpeechRecognitionPermission", targets: ["PhunwareSpeechRecognitionPermission", "PhunwarePermissionCommon", "PhunwarePermissionPrimingTargets"]),
+    ],
+    dependencies: [
+        .package(url: "https://github.com/phunware/artifact-theming-ios.git", branch: "release/1.1.2"),
+        .package(url: "https://github.com/phunware/artifact-foundation-ios.git", branch: "release/1.1.0"),
     ],
     targets: [
         // Internal frameworks
         .binaryTarget(
             name: "PhunwarePermissionCommon",
-            path: "./FrameworksStaticLinks/PhunwarePermissionCommon.xcframework"
+            path: "./Frameworks/PhunwarePermissionCommon.xcframework"
         ),
         .binaryTarget(
             name: "PhunwarePermissionPriming",
-            path: "./FrameworksStaticLinks/PhunwarePermissionPriming.xcframework"
+            path: "./Frameworks/PhunwarePermissionPriming.xcframework"
+        ),
+        .target(name: "PhunwarePermissionPrimingTargets",
+            dependencies:[
+                .target(name: "PhunwarePermissionPriming"),
+                .product(name: "PhunwareTheming", package: "artifact-theming-ios", condition: nil),
+                .product(name: "PhunwareFoundation", package: "artifact-foundation-ios", condition: nil),
+            ],
+            path: "PhunwarePermissionPrimingTargets"
         ),
 
         // Public-facing frameworks
         .binaryTarget(
             name: "PhunwareAppTrackingPermission",
-            path: "./FrameworksStaticLinks/PhunwareAppTrackingPermission.xcframework"
+            path: "./Frameworks/PhunwareAppTrackingPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareBluetoothPermission",
-            path: "./FrameworksStaticLinks/PhunwareBluetoothPermission.xcframework"
+            path: "./Frameworks/PhunwareBluetoothPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareCameraPermission",
-            path: "./FrameworksStaticLinks/PhunwareCameraPermission.xcframework"
+            path: "./Frameworks/PhunwareCameraPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareLocationPermission",
-            path: "./FrameworksStaticLinks/PhunwareLocationPermission.xcframework"
+            path: "./Frameworks/PhunwareLocationPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareMicrophonePermission",
-            path: "./FrameworksStaticLinks/PhunwareMicrophonePermission.xcframework"
+            path: "./Frameworks/PhunwareMicrophonePermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareNotificationsPermission",
-            path: "./FrameworksStaticLinks/PhunwareNotificationsPermission.xcframework"
+            path: "./Frameworks/PhunwareNotificationsPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwarePhotosPermission",
-            path: "./FrameworksStaticLinks/PhunwarePhotosPermission.xcframework"
+            path: "./Frameworks/PhunwarePhotosPermission.xcframework"
         ),
         .binaryTarget(
             name: "PhunwareSpeechRecognitionPermission",
-            path: "./FrameworksStaticLinks/PhunwareSpeechRecognitionPermission.xcframework"
+            path: "./Frameworks/PhunwareSpeechRecognitionPermission.xcframework"
         )
     ]
 )
