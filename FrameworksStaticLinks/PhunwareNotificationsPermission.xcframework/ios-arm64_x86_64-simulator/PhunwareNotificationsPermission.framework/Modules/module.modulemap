@@ -1,0 +1,6 @@
+framework module PhunwareNotificationsPermission {
+  umbrella header "PhunwareNotificationsPermission.h"
+  export *
+
+  module * { export * }
+}

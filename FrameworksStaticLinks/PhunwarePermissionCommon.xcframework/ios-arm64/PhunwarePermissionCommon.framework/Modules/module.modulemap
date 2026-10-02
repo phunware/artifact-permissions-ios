@@ -1,0 +1,6 @@
+framework module PhunwarePermissionCommon {
+  umbrella header "PhunwarePermissionCommon.h"
+  export *
+
+  module * { export * }
+}

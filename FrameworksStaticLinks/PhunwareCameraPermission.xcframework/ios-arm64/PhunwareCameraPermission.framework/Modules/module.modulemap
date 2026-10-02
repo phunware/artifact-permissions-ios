@@ -1,0 +1,6 @@
+framework module PhunwareCameraPermission {
+  umbrella header "PhunwareCameraPermission.h"
+  export *
+
+  module * { export * }
+}

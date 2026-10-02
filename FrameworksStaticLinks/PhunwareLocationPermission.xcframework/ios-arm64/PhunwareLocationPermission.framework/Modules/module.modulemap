@@ -1,0 +1,6 @@
+framework module PhunwareLocationPermission {
+  umbrella header "PhunwareLocationPermission.h"
+  export *
+
+  module * { export * }
+}
